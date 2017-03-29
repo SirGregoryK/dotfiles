@@ -52,7 +52,6 @@ fi
 # =====================
 	export TERMINAL=termite
 	export EDITOR=nvim
-	export VISUAL=subl3
 	export BROWSER=vivaldi-stable
 # autorun section
 # =====================
