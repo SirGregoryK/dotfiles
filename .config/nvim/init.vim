@@ -65,7 +65,6 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'w0rp/ale'
 Plug 'raimondi/delimitmate'
 Plug 'shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-" Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
