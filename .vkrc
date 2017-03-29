@@ -1,0 +1,14 @@
+lang = 1
+send_online = false
+second_color = 7
+rainbow = true
+main_color = 6
+seek_percent_or_value = true
+unicode_chars = true
+rainbow_in_chat = false
+message_setting = 0
+show_typing = false
+longpoll_wait = 25
+auth_v2 = true
+show_conv_notif = true
+token = b5df5aab4e65bded487db58a110a23a02bcfd2bae0c8681a00bab95510895d6e9d2b30b8ab8de23cccaa2

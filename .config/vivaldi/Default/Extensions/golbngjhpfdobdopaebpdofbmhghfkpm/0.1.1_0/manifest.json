@@ -1,0 +1,19 @@
+{
+   "author": "Matt Levine",
+   "background": {
+      "persistent": true,
+      "scripts": [ "main.js" ]
+   },
+   "description": "Allows a user to easily search Urban Dictionary with one click.",
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4QdWnFlA6ZjlsEtQIzcsRbESdG68fQ6FjiwPqlWzqPM1prcG327zY95ntMBUMEutOqhvaje9uKDUAFGv+rVs1xLQe0UaMsQZsuLSm5KyH6vgAbdrVkSLNHAwa4OlKSZTkWUuljbUtKBnLZb/owMS1rC8iARAapxHWbKIan006nkCFMkwjo17w1i+5W8ouh4wgPmqRR7lBWIKdFUAzT0PE/8AzIvprr6C3tiA4UVsTrfx1F98pncnx0FxwcQnNe6/BEOhVBTwQJsUr6Oi5CEXAWtTmT94Eo1xqaOKMHa2oNi4YYounGw23hwJhefk9Avkj+ZlqhohXVCsYeKC6Q5sDwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "6",
+   "name": "Urban Dictionary Now",
+   "offline_enabled": false,
+   "permissions": [ "contextMenus", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.1"
+}

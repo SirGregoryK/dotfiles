@@ -1,0 +1,23 @@
+{
+   "author": "__MSG_author__",
+   "content_scripts": [ {
+      "js": [ "loader.js" ],
+      "matches": [ "*://godville.net/superhero*", "*://godville.net/news*", "*://godville.net/user/profile*", "*://godville.net/user/rk_success*", "*://godville.net/forums/*", "*://godville.net/duels/log/*", "*://godvillegame.com/superhero*", "*://godvillegame.com/news*", "*://godvillegame.com/user/profile*", "*://godvillegame.com/user/rk_success*", "*://godvillegame.com/forums/*", "*://godvillegame.com/duels/log/*", "*://gdvl.tk/duels/log/*", "*://gv.erinome.net/duels/log/*", "*://gvg.erinome.net/duels/log/*" ]
+   } ],
+   "default_locale": "ru",
+   "description": "__MSG_appDesc__",
+   "homepage_url": "https://gv.erinome.net",
+   "icons": {
+      "128": "logo128.png",
+      "16": "logo16.png",
+      "32": "logo32.png",
+      "48": "logo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkHgwnQkUs1bjNUjXOgM9P3ZgXTvtR4umj+JMjyAanz145j3tKSta+II9gD8MdXmi3XeNASGlmkwf602ImJCo+0QxKWxQiPeP+DXUPCXCetaNx9//itSWTXdrP2ALqFcbC7EvulFT4Xp2b4GdZeJX7kJA2CZGyu/s2wxj6czirhoYVtXg8jfYMJxCfQdsHzL3SsgDjxezEwDK+LYwsBm2nXT8jmFqOc0FpcgEw3uJ3jUh5i8GqqV2LIWSiaJLul7o7MGtQm2qBf3M1QYFh310TK/VXB81uh0Q87xOYZmBnkIxTWy02MoAnKwoB3n5Qi0cOKVcN6C6oRkKRDiDZ+db7QIDAQAB",
+   "manifest_version": 2,
+   "name": "Erinome Godville UI+",
+   "permissions": [ "http://godville.net/", "https://godville.net/", "http://godvillegame.com/", "https://godvillegame.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.9.4",
+   "web_accessible_resources": [ "superhero.css", "forum.css", "options.css", "common.js", "superhero.js", "guip_chrome.js", "phrases_ru.js", "phrases_en.js", "options_page.js", "options.js", "forum.js", "timers.js", "log.js", "jsep.min.js", "images/background.jpg", "images/loader.gif", "images/*.png", "icon64.png" ]
+}

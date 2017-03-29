@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="PopupApp">
+<head>
+	<title ng-bind="'Информер Вконтакте'|translate">Информер Вконтакте</title>
+	<meta charset="UTF-8">
+	<base target="_blank">
+
+	<link rel="stylesheet" href="/HeaderApp/HeaderApp.css">
+	<link rel="stylesheet" href="/SectionApp/SectionApp.css">
+	<link rel="stylesheet" href="/PopupApp/PopupApp.css">
+	<link rel="stylesheet" href="/vendors/css/fonts.css">
+
+</head>
+<body>
+	<toast></toast>
+	<div class="container" ng-controller="ContainerCtrl as main">
+		<vk-header ng-if="main.stg.access_token && main.stg.user_id"></vk-header>
+		<section ng-if="main.stg.access_token && main.stg.user_id && !main.stg.alerts[0]" ng-controller="SectionsCtrl as vm" ui-view></section>
+
+		<div ng-if="!main.stg.access_token || !main.stg.user_id" ng-click="main.auth()" class="login">
+			<i class="fa fa-hand-pointer-o" aria-hidden="true"></i>
+			<translate>Нажмите чтобы авторизоватся</translate>
+		</div>
+
+		<div ng-if="main.stg.access_token && main.stg.user_id && main.stg.alerts[0]" alert="main.stg.alerts[0]"></div>
+	</div>
+	<script src="/vendors/js/vendors.js"></script>
+	<script src="/Translations/all.js"></script>
+	<script src="/StorageApp/StorageApp.js"></script>
+	<script src="/VkApp/VkApp.js"></script>
+	<script src="/HeaderApp/HeaderApp.js"></script>
+	<script src="/libs/Helpers.js"></script>
+	<script src="/PopupApp/PopupApp.js"></script>
+	<script src="/DeamonApp/DeamonApp.js"></script>
+	<script src="/SectionApp/SectionApp.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+	"atomic_save": true,
+	"auto_close_tags": true,
+	"bold_folder_labels": true,
+	"caret_style": "solid",
+	"color_scheme": "Packages/User/SublimeLinter/Afterglow-twilight (SL).tmTheme",
+	"enable_tab_scrolling": false,
+	"fallback_encoding": "Cyrillic (Windows 1251)",
+	"font_face": "Source Code Pro",
+	"font_options":
+	[
+		"directwrite"
+	],
+	"font_size": 16,
+	"highlight_line": true,
+	"hot_exit": true,
+	"ignored_packages":
+	[
+		"All Autocomplete",
+		"Makefile",
+		"Vintage"
+	],
+	"match_brackets": false,
+	"match_brackets_angle": false,
+	"match_brackets_braces": false,
+	"match_brackets_content": false,
+	"match_brackets_square": false,
+	"match_tags": false,
+	"overlay_scroll_bars": "enabled",
+	"remember_open_files": true,
+	"show_encoding": true,
+	"tab_size": 8,
+	"theme": "Afterglow-green.sublime-theme",
+	"translate_tabs_to_space": false,
+	"trim_trailing_white_space_on_save": false,
+	"update_check": false
+}

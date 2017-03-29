@@ -1,0 +1,260 @@
+{
+   "m1": {
+      "message": "Exibir na ordem:"
+   },
+   "m10": {
+      "message": "espectadores cresc"
+   },
+   "m11": {
+      "message": "espectadores decresc"
+   },
+   "m12": {
+      "message": "título de A a Z"
+   },
+   "m13": {
+      "message": "título de Z a A"
+   },
+   "m14": {
+      "message": "mais recente"
+   },
+   "m15": {
+      "message": "aparência antiga"
+   },
+   "m16": {
+      "message": "nova aparência"
+   },
+   "m17": {
+      "message": "janela"
+   },
+   "m18": {
+      "message": "nova janela"
+   },
+   "m19": {
+      "message": "nova aba"
+   },
+   "m2": {
+      "message": "Abrir em:"
+   },
+   "m20": {
+      "message": "chat"
+   },
+   "m21": {
+      "message": "vídeos"
+   },
+   "m22": {
+      "message": "seguir"
+   },
+   "m23": {
+      "message": "parar de seguir"
+   },
+   "m24": {
+      "message": "Compartilhe:"
+   },
+   "m25": {
+      "message": "abrir em nova aba"
+   },
+   "m26": {
+      "message": "abrir em janela"
+   },
+   "m27": {
+      "message": "Atualizar"
+   },
+   "m28": {
+      "message": "Filtrar"
+   },
+   "m29": {
+      "message": "Compartilhar no Twitter!"
+   },
+   "m3": {
+      "message": "Abrir chat em:"
+   },
+   "m30": {
+      "message": "Compartilhar no Facebook!"
+   },
+   "m31": {
+      "message": "Compartilhar no Google+!"
+   },
+   "m32": {
+      "message": "Compartilhar no VK!"
+   },
+   "m33": {
+      "message": "Seguindo"
+   },
+   "m34": {
+      "message": "Jogos"
+   },
+   "m35": {
+      "message": "Procurar"
+   },
+   "m36": {
+      "message": "Opções"
+   },
+   "m37": {
+      "message": "Ajuda & Info"
+   },
+   "m38": {
+      "message": "Entre para receber notificações."
+   },
+   "m39": {
+      "message": "Visite a página de suporte oficial clicando aqui!"
+   },
+   "m4": {
+      "message": "Exibir número de transmissões online no ícone."
+   },
+   "m40": {
+      "message": "Ajude o \"Twitch Now\"!"
+   },
+   "m41": {
+      "message": "Se você gostaria de ver o \"Twitch Now\" em outros navegadores ou queira apenas de agradecer, clique aqui:"
+   },
+   "m42": {
+      "message": "Têm alguma dúvida ou encontrou um erro?"
+   },
+   "m43": {
+      "message": "Doe!"
+   },
+   "m44": {
+      "message": "Salvar opções"
+   },
+   "m45": {
+      "message": "espectadores"
+   },
+   "m46": {
+      "message": "canais"
+   },
+   "m47": {
+      "message": "minutos"
+   },
+   "m48": {
+      "message": "Não foi possível carregar as transmissões. Verifique a sua conexão com a internet e tente novamente."
+   },
+   "m49": {
+      "message": "Nenhum vídeo disponível para este canal."
+   },
+   "m5": {
+      "message": "Mostrar notificação quanto transmissões ficarem online."
+   },
+   "m50": {
+      "message": "Nenhum resultado encontrado."
+   },
+   "m51": {
+      "message": "Transmissões populares"
+   },
+   "m52": {
+      "message": "Entrar"
+   },
+   "m53": {
+      "message": "Sair"
+   },
+   "m54": {
+      "message": "Ver tudo"
+   },
+   "m55": {
+      "message": "Tema de exibição:"
+   },
+   "m56": {
+      "message": "versão escura"
+   },
+   "m57": {
+      "message": "versão clara"
+   },
+   "m58": {
+      "message": "Repositório do GitHub!"
+   },
+   "m59": {
+      "message": "Ajude a traduzir o \"Twitch Now\"."
+   },
+   "m6": {
+      "message": "Fechar notificação automaticamente após:"
+   },
+   "m60": {
+      "message": "Se você quer ajudar a traduzir, visite \"Twitch Now\" no repositório do GitHub."
+   },
+   "m61": {
+      "message": "Idioma do Twitch.tv:"
+   },
+   "m62": {
+      "message": "Largura da janela"
+   },
+   "m63": {
+      "message": "não especificar idioma (padrão: Inglês)"
+   },
+   "m64": {
+      "message": "Contribuintes:"
+   },
+   "m65": {
+      "message": "Exibição simples (sem imagens, títulos, etc)"
+   },
+   "m66": {
+      "message": "Aba padrão:"
+   },
+   "m67": {
+      "message": "favoritos"
+   },
+   "m68": {
+      "message": "jogos"
+   },
+   "m69": {
+      "message": "transmissões populares"
+   },
+   "m7": {
+      "message": "Reproduzir som de notificação."
+   },
+   "m70": {
+      "message": "destacar este jogo"
+   },
+   "m71": {
+      "message": "abrir"
+   },
+   "m72": {
+      "message": "Entrou como"
+   },
+   "m73": {
+      "message": "Entre para ver as suas transmissões favoritas"
+   },
+   "m74": {
+      "message": "Gostou? Quer ajudar? Doe via Paypal e Bitcoin!"
+   },
+   "m75": {
+      "message": "Envie seu som"
+   },
+   "m76": {
+      "message": "som personalizado"
+   },
+   "m77": {
+      "message": "\"Twitch Now\" para outros navegadores:"
+   },
+   "m78": {
+      "message": "Chrome"
+   },
+   "m79": {
+      "message": "Opera"
+   },
+   "m8": {
+      "message": "Selecione o som de notificação:"
+   },
+   "m80": {
+      "message": "Firefox"
+   },
+   "m81": {
+      "message": "Jogos seguidos"
+   },
+   "m82": {
+      "message": "jogo"
+   },
+   "m83": {
+      "message": "Seguir jogo"
+   },
+   "m84": {
+      "message": "Parar de seguir"
+   },
+   "m85": {
+      "message": "Administrar notificações"
+   },
+   "m86": {
+      "message": "Volume da notificação"
+   },
+   "m9": {
+      "message": "Intervalo de atualização:"
+   }
+}

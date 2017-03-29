@@ -1,0 +1,13 @@
+{
+	"_vcs":
+	{
+		"git":
+		[
+			"/home/helplessman/.cache/pacaur/mint-y-theme-git",
+			"/home/helplessman/.cache/pacaur/mint-y-icons-git",
+			"/home/helplessman/.cache/pacaur/ocs-url",
+			"/home/helplessman/.cache/pacaur/yadm-git",
+			"/home/helplessman/.local/share/nvim/plugged/plaintasks.vim"
+		]
+	}
+}

@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "style.css" ],
+      "js": [ "script.js" ],
+      "matches": [ "http://*.vk.com/*", "https://*.vk.com/*" ]
+   } ],
+   "default_locale": "ru",
+   "description": "__MSG_ex_description__",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgB2Axy6xT6M46pr0kZpoL9PZ7xSXrl8rb8MBebVmPH+vx6Mm8lRXg6Zckh50N3C9qaR2Q1x/TK1tPv1JJlHreePMP+ewBPv/Ut/FmfZPrh665Jk9A+xi9NRZ2zvtDQoXV/qILhy8VYphdIPguFhD9RsBxcjhf9N9J24R9NszVOnypil3Y5/2K6Cm1SzTgBxXp9oamHsTGnOMfxzSOHelFakZOmOYmnDADalCz7cPQh+LBTop/lgzADFUMsg+MSYZKOwBlRfYemAO+KlCKN8sjw5Zd21a1+SxU6mNlrXrf0odtn52rfQicT/CjaQ5iaXRzVI/gbrmahRy7Bk6lztFEQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_ex_name__",
+   "permissions": [ "tabs", "https://*.vk.com/*", "http://*.vk.com/*", "background", "storage", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.6",
+   "web_accessible_resources": [ "content.js", "content-old.js", "style.css", "images/menu.png", "images/menu_2x.png", "images/alert9.png", "images/alert9_2x.png" ]
+}

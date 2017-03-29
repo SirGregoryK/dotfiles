@@ -1,0 +1,26 @@
+2017/03/28-23:52:20.520 10592 Reusing MANIFEST /home/helplessman/.config/vivaldi/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2017/03/28-23:52:20.520 10592 Recovering log #120
+2017/03/28-23:52:20.520 10592 Reusing old log /home/helplessman/.config/vivaldi/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000120.log 
+2017/03/29-07:13:27.708 11387 Level-0 table #124: started
+2017/03/29-07:13:27.771 11387 Level-0 table #124: 1713366 bytes OK
+2017/03/29-07:13:27.785 11387 Delete type=0 #120
+2017/03/29-07:13:27.786 11387 Compacting 4@0 + 2@1 files
+2017/03/29-07:13:27.908 11387 Generated table #125@0: 24 keys, 2407968 bytes
+2017/03/29-07:13:28.132 11387 Generated table #126@0: 14 keys, 7229734 bytes
+2017/03/29-07:13:28.133 11387 Compacted 4@0 + 2@1 files => 9637702 bytes
+2017/03/29-07:13:28.146 11387 compacted to: files[ 0 2 8 0 0 0 0 ]
+2017/03/29-07:13:28.146 11387 Delete type=2 #106
+2017/03/29-07:13:28.147 11387 Delete type=2 #107
+2017/03/29-07:13:28.148 11387 Delete type=2 #115
+2017/03/29-07:13:28.148 11387 Delete type=2 #118
+2017/03/29-07:13:28.149 11387 Delete type=2 #121
+2017/03/29-07:13:28.150 11387 Delete type=2 #124
+2017/03/29-07:15:28.107 11387 Level-0 table #128: started
+2017/03/29-07:15:28.152 11387 Level-0 table #128: 1227080 bytes OK
+2017/03/29-07:15:28.165 11387 Delete type=0 #123
+2017/03/29-07:19:28.734 11387 Level-0 table #130: started
+2017/03/29-07:19:28.792 11387 Level-0 table #130: 1440973 bytes OK
+2017/03/29-07:19:28.805 11387 Delete type=0 #127
+2017/03/29-08:56:20.551 11387 Level-0 table #132: started
+2017/03/29-08:56:20.969 11387 Level-0 table #132: 5284090 bytes OK
+2017/03/29-08:56:20.998 11387 Delete type=0 #129

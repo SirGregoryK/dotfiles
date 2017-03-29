@@ -1,0 +1,25 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "pratikabu-stt.css" ],
+      "js": [ "thirdparty/pratikabu-jquery.js", "thirdparty/pratikabu-jquery-rotate.js", "browserspecific/pratikabu-stt-impl.js", "pratikabu-stt.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Scroll to top and vice versa in a window.",
+   "homepage_url": "http://pratikabu.users.sourceforge.net/extensions/scrolltotop",
+   "icons": {
+      "128": "icons/pratikabu-stt-128.png",
+      "16": "icons/pratikabu-stt-16.png",
+      "48": "icons/pratikabu-stt-48-1.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDB69/47LnwA05vPL0wqaW7LYELfVJdECC/dFk9zLslykjtShVw4oSeVylCWTrG+7k/KQi5gKm9S/4C5/xuK9brQmG+8GaC290PFUywF37GEiDpqbjsDVs+E4n+kgQ/lXZLcntqN7OIDpKK6slgU1zL4krMwXoFhKL9mzJqxp92BQIDAQAB",
+   "manifest_version": 2,
+   "name": "Scroll To Top",
+   "options_page": "options/options.html",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.5.2",
+   "web_accessible_resources": [ "icons/pratikabu-stt-48-1.png", "icons/pratikabu-stt-48-2.png", "icons/pratikabu-stt-48-3.png", "icons/pratikabu-stt-48-4.png", "icons/pratikabu-stt-48-5.png", "icons/pratikabu-stt-48-6.png", "icons/pratikabu-stt-48-7.png", "icons/pratikabu-stt-48-8.png", "icons/pratikabu-stt-48-9.png", "icons/pratikabu-stt-48-10.png", "icons/pratikabu-stt-48-11.png", "icons/pratikabu-stt-48-12.png", "icons/pratikabu-stt-48-13.png", "icons/pratikabu-stt-48-14.png", "icons/pratikabu-stt-48-15.png", "icons/pratikabu-stt-48-16.png", "icons/pratikabu-stt-48-17.png", "icons/pratikabu-stt-48-18.png", "icons/pratikabu-stt-48-19.png", "icons/pratikabu-stt-48-20.png", "icons/pratikabu-stt-48-21.png", "icons/pratikabu-stt-48-22.png", "icons/pratikabu-stt-48-23.png", "icons/pratikabu-stt-48-23.png", "icons/pratikabu-stt-48-24.png", "icons/pratikabu-stt-48-25.png", "icons/pratikabu-stt-48-26.png", "icons/pratikabu-stt-48-27.png", "icons/pratikabu-stt-48-28.png", "icons/pratikabu-stt-48-29.png", "icons/pratikabu-stt-48-30.png", "icons/pratikabu-stt-48-31.png", "icons/pratikabu-stt-48-32.png", "icons/pratikabu-stt-48-33.png", "icons/pratikabu-stt-48-34.png", "icons/pratikabu-stt-48-35.png", "icons/pratikabu-stt-32-1.png", "icons/pratikabu-stt-32-2.png", "icons/pratikabu-stt-32-3.png", "icons/pratikabu-stt-32-4.png", "icons/pratikabu-stt-32-5.png", "icons/pratikabu-stt-32-6.png", "icons/pratikabu-stt-32-7.png", "icons/pratikabu-stt-32-8.png", "icons/pratikabu-stt-32-9.png", "icons/pratikabu-stt-32-10.png", "icons/pratikabu-stt-32-11.png", "icons/pratikabu-stt-32-12.png", "icons/pratikabu-stt-32-13.png", "icons/pratikabu-stt-32-14.png", "icons/pratikabu-stt-32-15.png", "icons/pratikabu-stt-32-16.png", "icons/pratikabu-stt-32-17.png", "icons/pratikabu-stt-32-18.png", "icons/pratikabu-stt-32-19.png", "icons/pratikabu-stt-32-20.png", "icons/pratikabu-stt-32-21.png", "icons/pratikabu-stt-32-22.png", "icons/pratikabu-stt-32-23.png", "icons/pratikabu-stt-32-23.png", "icons/pratikabu-stt-32-24.png", "icons/pratikabu-stt-32-25.png", "icons/pratikabu-stt-32-26.png", "icons/pratikabu-stt-32-27.png", "icons/pratikabu-stt-32-28.png", "icons/pratikabu-stt-32-29.png", "icons/pratikabu-stt-32-30.png", "icons/pratikabu-stt-32-31.png", "icons/pratikabu-stt-32-32.png", "icons/pratikabu-stt-32-33.png", "icons/pratikabu-stt-32-34.png", "icons/pratikabu-stt-32-35.png", "icons/pratikabu-stt-dual-hr-1.png", "icons/pratikabu-stt-dual-hr-2.png", "icons/pratikabu-stt-dual-hr-3.png", "icons/pratikabu-stt-dual-hr-4.png", "icons/pratikabu-stt-dual-hr-5.png", "icons/pratikabu-stt-dual-hr-6.png", "icons/pratikabu-stt-dual-vr-1.png", "icons/pratikabu-stt-dual-vr-2.png", "icons/pratikabu-stt-dual-vr-3.png", "icons/pratikabu-stt-clear-16.png", "icons/pratikabu-stt-clear-24.png", "icons/pratikabu-stt-settings-24.png", "icons/pratikabu-stt-settings-16.png", "icons/pratikabu-stt-pageup-24.png", "icons/pratikabu-stt-pageup-16.png", "icons/pratikabu-stt-bottom-24.png", "icons/pratikabu-stt-bottom-16.png" ]
+}

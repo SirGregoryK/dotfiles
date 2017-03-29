@@ -1,0 +1,667 @@
+{
+    "last_run_data_local": {
+        "Color Highlighter/icons/000000FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/000000FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/00008BFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/00008BFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/0000FFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/0000FFFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/008000FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/008000FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/008080FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/008080FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/00BFFFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/00BFFFFF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/00FF00FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/00FF00FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/00FFFFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/00FFFFFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/115588FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/115588FF.png", 
+            "version": 1483703645.0
+        }, 
+        "Color Highlighter/icons/14C799B0.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/14C799B0.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/222200FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/222200FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/6495EDFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/6495EDFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/679101FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/679101FF.png", 
+            "version": 1485112196.0
+        }, 
+        "Color Highlighter/icons/800000FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/800000FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/800080FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/800080FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/808080FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/808080FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/8A2BE2FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/8A2BE2FF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/9370D8FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/9370D8FF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/99AAFFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/99AAFFFF.png", 
+            "version": 1483445739.0
+        }, 
+        "Color Highlighter/icons/9ACD32FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/9ACD32FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/ADFF2FFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/ADFF2FFF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/B22222FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/B22222FF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/C0C0C0FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/C0C0C0FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/D2B48CFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/D2B48CFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/DAA520FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/DAA520FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/EE82EEFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/EE82EEFF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/FF0000FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/FF0000FF.png", 
+            "version": 1483445739.0
+        }, 
+        "Color Highlighter/icons/FF00FFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/FF00FFFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/FF1493FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/FF1493FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/FFA500FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/FFA500FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/FFAAFFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/FFAAFFFF.png", 
+            "version": 1483445418.0
+        }, 
+        "Color Highlighter/icons/FFC0CBFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/FFC0CBFF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/FFD700FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/FFD700FF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/FFEBCDFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/FFEBCDFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/FFFAAFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/FFFAAFFF.png", 
+            "version": 1483445446.0
+        }, 
+        "Color Highlighter/icons/FFFBBFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/FFFBBFFF.png", 
+            "version": 1483445739.0
+        }, 
+        "Color Highlighter/icons/FFFF00FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/FFFF00FF.png", 
+            "version": 1483703645.0
+        }, 
+        "Color Highlighter/icons/FFFFFFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/FFFFFFFF.png", 
+            "version": 1483445355.0
+        }, 
+        "Color Highlighter/icons/aaAAaa11.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/aaAAaa11.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/ddeebbFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/ddeebbFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/ddeeffFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/icons/ddeeffFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/themes/Afterglow-markdown.tmTheme": {
+            "dir": "Color Highlighter/themes", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/themes/Afterglow-markdown.tmTheme", 
+            "version": 1486726402.0
+        }, 
+        "Color Highlighter/themes/Afterglow-twilight (SL).tmTheme": {
+            "dir": "Color Highlighter/themes", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/themes/Afterglow-twilight (SL).tmTheme", 
+            "version": 1490524521.0894432
+        }, 
+        "Color Highlighter/themes/MarkdownEditor.tmTheme": {
+            "dir": "Color Highlighter/themes", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Color Highlighter/themes/MarkdownEditor.tmTheme", 
+            "version": 1485112196.0
+        }, 
+        "ColorHighlighter.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings", 
+            "version": 1483445918.0
+        }, 
+        "JSON.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/JSON.sublime-settings", 
+            "version": 1486726105.0
+        }, 
+        "Markdown.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Markdown.sublime-settings", 
+            "version": 1487370396.0
+        }, 
+        "MultiMarkdown.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/MultiMarkdown.sublime-settings", 
+            "version": 1486726602.0
+        }, 
+        "Package Control.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Package Control.sublime-settings", 
+            "version": 1490725080.0502875
+        }, 
+        "PlainTasks.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/PlainTasks.sublime-settings", 
+            "version": 1490551215.7794514
+        }, 
+        "Preferences.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Preferences.sublime-settings", 
+            "version": 1490725081.0536208
+        }, 
+        "Preferences.sublime-settings.0.bak": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Preferences.sublime-settings.0.bak", 
+            "version": 1483491504.0
+        }, 
+        "SBSCompare.tmTheme": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/SBSCompare.tmTheme", 
+            "version": 1486722813.0
+        }, 
+        "SFTP.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/SFTP.sublime-settings", 
+            "version": 1483450280.0
+        }, 
+        "SublimeLinter.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings", 
+            "version": 1490725085.0869544
+        }, 
+        "SublimeLinter/Afterglow-twilight (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/SublimeLinter/Afterglow-twilight (SL).tmTheme", 
+            "version": 1487344727.0
+        }, 
+        "SublimeLinter/Monokai (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/SublimeLinter/Monokai (SL).tmTheme", 
+            "version": 1487344726.0
+        }, 
+        "Sublimerge Macros (\u041a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0443\u044e\u0449\u0430\u044f \u043a\u043e\u043f\u0438\u044f \u0441 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430 byFish-laptop 2017-02-17).sublime-commands": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Sublimerge Macros (\u041a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0443\u044e\u0449\u0430\u044f \u043a\u043e\u043f\u0438\u044f \u0441 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430 byFish-laptop 2017-02-17).sublime-commands", 
+            "version": 1487266885.0
+        }, 
+        "Sublimerge Macros (\u041a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0443\u044e\u0449\u0430\u044f \u043a\u043e\u043f\u0438\u044f \u0441 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430 byfish-laptop 2017-03-20).sublime-commands": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Sublimerge Macros (\u041a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0443\u044e\u0449\u0430\u044f \u043a\u043e\u043f\u0438\u044f \u0441 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430 byfish-laptop 2017-03-20).sublime-commands", 
+            "version": 1490025895.0
+        }, 
+        "Sublimerge Macros (\u041a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0443\u044e\u0449\u0430\u044f \u043a\u043e\u043f\u0438\u044f \u0441 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430 byfish-laptop 2017-03-25).sublime-commands": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Sublimerge Macros (\u041a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0443\u044e\u0449\u0430\u044f \u043a\u043e\u043f\u0438\u044f \u0441 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430 byfish-laptop 2017-03-25).sublime-commands", 
+            "version": 1490427843.0
+        }, 
+        "Sublimerge Macros.sublime-commands": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Sublimerge Macros.sublime-commands", 
+            "version": 1490773149.2836359
+        }, 
+        "Sublimerge.tmTheme": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Sublimerge.tmTheme", 
+            "version": 1490773146.606969
+        }, 
+        "SublimergeSummaryPanel.tmTheme": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/SublimergeSummaryPanel.tmTheme", 
+            "version": 1490773146.606969
+        }, 
+        "Terminal (Linux).sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Terminal (Linux).sublime-settings", 
+            "version": 1487345161.0
+        }, 
+        "Terminal (Windows).sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Terminal (Windows).sublime-settings", 
+            "version": 1487345118.0
+        }, 
+        "Terminal.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/.config/sublime-text-3/Packages/User/Terminal.sublime-settings", 
+            "version": 1487345166.0
+        }
+    }, 
+    "last_run_data_remote": {
+        "Color Highlighter/icons/000000FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/000000FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/00008BFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/00008BFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/0000FFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/0000FFFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/008000FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/008000FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/008080FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/008080FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/00BFFFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/00BFFFFF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/00FF00FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/00FF00FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/00FFFFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/00FFFFFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/115588FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/115588FF.png", 
+            "version": 1483703645.0
+        }, 
+        "Color Highlighter/icons/14C799B0.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/14C799B0.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/222200FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/222200FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/6495EDFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/6495EDFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/679101FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/679101FF.png", 
+            "version": 1485112196.0
+        }, 
+        "Color Highlighter/icons/800000FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/800000FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/800080FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/800080FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/808080FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/808080FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/8A2BE2FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/8A2BE2FF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/9370D8FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/9370D8FF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/99AAFFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/99AAFFFF.png", 
+            "version": 1483445739.0
+        }, 
+        "Color Highlighter/icons/9ACD32FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/9ACD32FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/ADFF2FFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/ADFF2FFF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/B22222FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/B22222FF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/C0C0C0FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/C0C0C0FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/D2B48CFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/D2B48CFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/DAA520FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/DAA520FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/EE82EEFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/EE82EEFF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/FF0000FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/FF0000FF.png", 
+            "version": 1483445739.0
+        }, 
+        "Color Highlighter/icons/FF00FFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/FF00FFFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/FF1493FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/FF1493FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/FFA500FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/FFA500FF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/FFAAFFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/FFAAFFFF.png", 
+            "version": 1483445418.0
+        }, 
+        "Color Highlighter/icons/FFC0CBFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/FFC0CBFF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/FFD700FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/FFD700FF.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/FFEBCDFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/FFEBCDFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/FFFAAFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/FFFAAFFF.png", 
+            "version": 1483445446.0
+        }, 
+        "Color Highlighter/icons/FFFBBFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/FFFBBFFF.png", 
+            "version": 1483445739.0
+        }, 
+        "Color Highlighter/icons/FFFF00FF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/FFFF00FF.png", 
+            "version": 1483703645.0
+        }, 
+        "Color Highlighter/icons/FFFFFFFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/FFFFFFFF.png", 
+            "version": 1483445355.0
+        }, 
+        "Color Highlighter/icons/aaAAaa11.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/aaAAaa11.png", 
+            "version": 1485444320.0
+        }, 
+        "Color Highlighter/icons/ddeebbFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/ddeebbFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/icons/ddeeffFF.png": {
+            "dir": "Color Highlighter/icons", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/icons/ddeeffFF.png", 
+            "version": 1485444319.0
+        }, 
+        "Color Highlighter/themes/Afterglow-markdown.tmTheme": {
+            "dir": "Color Highlighter/themes", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/themes/Afterglow-markdown.tmTheme", 
+            "version": 1486726402.0
+        }, 
+        "Color Highlighter/themes/Afterglow-twilight (SL).tmTheme": {
+            "dir": "Color Highlighter/themes", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/themes/Afterglow-twilight (SL).tmTheme", 
+            "version": 1490524521.0894432
+        }, 
+        "Color Highlighter/themes/MarkdownEditor.tmTheme": {
+            "dir": "Color Highlighter/themes", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Color Highlighter/themes/MarkdownEditor.tmTheme", 
+            "version": 1485112196.0
+        }, 
+        "ColorHighlighter.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/ColorHighlighter.sublime-settings", 
+            "version": 1483445918.0
+        }, 
+        "JSON.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/JSON.sublime-settings", 
+            "version": 1486726105.0
+        }, 
+        "Markdown.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Markdown.sublime-settings", 
+            "version": 1487370396.0
+        }, 
+        "MultiMarkdown.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/MultiMarkdown.sublime-settings", 
+            "version": 1486726602.0
+        }, 
+        "Package Control.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Package Control.sublime-settings", 
+            "version": 1490725080.0502875
+        }, 
+        "PlainTasks.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/PlainTasks.sublime-settings", 
+            "version": 1490551215.7794514
+        }, 
+        "Preferences.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Preferences.sublime-settings", 
+            "version": 1490725081.0536208
+        }, 
+        "Preferences.sublime-settings.0.bak": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Preferences.sublime-settings.0.bak", 
+            "version": 1483491504.0
+        }, 
+        "SBSCompare.tmTheme": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/SBSCompare.tmTheme", 
+            "version": 1486722813.0
+        }, 
+        "SFTP.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/SFTP.sublime-settings", 
+            "version": 1483450280.0
+        }, 
+        "SublimeLinter.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/SublimeLinter.sublime-settings", 
+            "version": 1490725085.0869544
+        }, 
+        "SublimeLinter/Afterglow-twilight (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/SublimeLinter/Afterglow-twilight (SL).tmTheme", 
+            "version": 1487344727.0
+        }, 
+        "SublimeLinter/Monokai (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/SublimeLinter/Monokai (SL).tmTheme", 
+            "version": 1487344726.0
+        }, 
+        "Sublimerge Macros (\u041a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0443\u044e\u0449\u0430\u044f \u043a\u043e\u043f\u0438\u044f \u0441 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430 byFish-laptop 2017-02-17).sublime-commands": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Sublimerge Macros (\u041a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0443\u044e\u0449\u0430\u044f \u043a\u043e\u043f\u0438\u044f \u0441 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430 byFish-laptop 2017-02-17).sublime-commands", 
+            "version": 1487266885.0
+        }, 
+        "Sublimerge Macros (\u041a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0443\u044e\u0449\u0430\u044f \u043a\u043e\u043f\u0438\u044f \u0441 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430 byfish-laptop 2017-03-20).sublime-commands": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Sublimerge Macros (\u041a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0443\u044e\u0449\u0430\u044f \u043a\u043e\u043f\u0438\u044f \u0441 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430 byfish-laptop 2017-03-20).sublime-commands", 
+            "version": 1490025895.0
+        }, 
+        "Sublimerge Macros (\u041a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0443\u044e\u0449\u0430\u044f \u043a\u043e\u043f\u0438\u044f \u0441 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430 byfish-laptop 2017-03-25).sublime-commands": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Sublimerge Macros (\u041a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0443\u044e\u0449\u0430\u044f \u043a\u043e\u043f\u0438\u044f \u0441 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430 byfish-laptop 2017-03-25).sublime-commands", 
+            "version": 1490427843.0
+        }, 
+        "Sublimerge Macros.sublime-commands": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Sublimerge Macros.sublime-commands", 
+            "version": 1490773149.2836359
+        }, 
+        "Sublimerge.tmTheme": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Sublimerge.tmTheme", 
+            "version": 1490773146.606969
+        }, 
+        "SublimergeSummaryPanel.tmTheme": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/SublimergeSummaryPanel.tmTheme", 
+            "version": 1490773146.606969
+        }, 
+        "Terminal (Linux).sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Terminal (Linux).sublime-settings", 
+            "version": 1487345161.0
+        }, 
+        "Terminal (Windows).sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Terminal (Windows).sublime-settings", 
+            "version": 1487345118.0
+        }, 
+        "Terminal.sublime-settings": {
+            "dir": "", 
+            "path": "/home/helplessman/Dropbox/Sublime Text/PackageSync/Terminal.sublime-settings", 
+            "version": 1487345166.0
+        }
+    }, 
+    "packages_to_remove": []
+}

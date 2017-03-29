@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Show and Hide Passwords - Options</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+<div id="pbody" class="pbody" style="display:none">
+    <div class="popup">
+    	<div class="ptitle">
+        	<div class="welc">Welcome</div>
+            <div class="close" id="close"><img id="pclose" src="images/close.png" alt="Close"/></div>
+        </div>
+        <div class="pcont">
+        	Thank you for installing <font color="#0099FF">Show and Hide Passwords</font>.<br/><br/>
+            Show and Hide Passwords is a tool that lets you view your password in plain text<br/><br/>
+            Show and Hide Passwords is a little bit customizable so please press OK to get more information and view options.<br/><br/>
+            We hope you will like it.
+        </div>
+        <div class="pbutton">
+        	<input class="OK" id="OK" value="OK" type="button"/>
+        </div>
+    </div>
+</div>
+<div style="padding-top: 40px;">
+    <div class="box">
+        <div class="title">
+            <p>
+                 Show and Hide Passwords - <font color="#1E6DC7">Options</font>
+            </p>
+        </div>
+        <div class="select"><p style="text-align: right;padding:5px 0;padding-right: 47px;font-size:13px;color:#777;font-family:'Roboto Medium'">Sample</p>
+            <table id="st" style="padding-left: 16px; padding-top: px;" cellpadding="0" cellspacing="0" width="100%" height="100%">
+                <tr>
+                    <td width="22" align="left">
+                        <input class="ck" name="option" id="a" value="0" type="radio"/><br/>
+                    </td>
+                    <td width="310" align="left">
+                        <label class="ck" for="a">
+                        <p>Click to show password. Click again to hide.</p></label>
+                    </td>
+                    <td width="130" align="right" style="padding-right: 16px;">
+                        <p id="sb"><input value="p@ssw0rd" class="password" id="input_1" type="password"/><span id="sample_1" class="show_password_icon" style="height: 23px; margin-left: 83px !important;"></span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        <input class="ck" name="option" id="b" value="1" type="radio"/><br/>
+                    </td>
+                    <td align="left">
+                        <label class="ck" for="b"><p>Always show password. Click to hide.</p></label>
+                    </td>
+                    <td align="right" style="padding-right: 16px;">
+                        <p id="sb"><input value="p@ssw0rd" class="password" id="input_2" type="text"/><span id="sample_2" class="show_password_icon" style="height: 23px; margin-left: 83px !important;"></span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        <input class="ck" name="option" id="c" value="2" type="radio"/><br/>
+                    </td>
+                    <td align="left">
+                        <label class="ck" for="c"><p>Hold mouse button to show. Release to hide.</p></label>
+                    </td>
+                    <td align="right" style="padding-right: 16px;">
+                        <p id="sb"><input value="p@ssw0rd" class="password" id="input_3" type="password"/><span id="sample_3" class="show_password_icon" style="height: 23px; margin-left: 83px !important;"></span></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="save">
+            <table cellpadding="0" cellspacing="0" width="100%" height="100%">
+            	<tr>
+                	<td style="padding-left: 16px">
+                    	<p id="svd"></p>
+                    </td>
+                	<td align="right" style="padding-right: 16px">
+                        <input value="Save" id="save" type="button"/>
+                        <input value="Reset" id="reset" type="button"/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div id="shd" style="margin: 0 auto;text-align: center;">
+    <img src="images/shadow_a.png" style="opacity:40" width="460" height="20" alt="Shadow"/>
+    <br/>
+	<div class="footerLinks">
+    	<a href="about.html">About</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms of Use</a><a href="contact.html">Contact</a>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+<div class="show_password_icon" id="sample_1"></div>
+<div class="show_password_icon" id="sample_2"></div>
+<div class="show_password_icon" id="sample_3"></div>
+
+
+</body>
+</html>

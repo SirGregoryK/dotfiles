@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html ng-app="OptionsApp">
+<head>
+	<title ng-bind="'Настройки'|translate">Настройки</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="/vendors/css/fonts.css">
+	<link rel="stylesheet" href="/HeaderApp/HeaderApp.css">
+	<link rel="stylesheet" href="/OptionsApp/OptionsApp.css">
+
+</head>
+<body>
+	<div class="header-container">
+		<vk-header></vk-header>
+	</div>
+	<div class="wrapper" ng-controller="OptionsCtrl as vm">
+		<div class="option-panels">
+			<div class="panel noty box">
+				<div class="header" translate >Настройки уведомлений</div>
+				<div class="content">
+					<label>
+						<checkbox-option param="vm.options.friends"></checkbox-option>
+						<translate>Сообщать о заявках в друзья</translate>
+					</label>
+					<label>
+						<checkbox-option param="vm.options.photos"></checkbox-option>
+						<translate>Сообщать об отметках на фотографиях</translate>
+					</label>
+					<label>
+						<checkbox-option param="vm.options.videos"></checkbox-option>
+						<translate>Сообщать об отметках в видеозаписях</translate>
+					</label>
+					<label>
+						<checkbox-option param="vm.options.messages"></checkbox-option>
+						<translate>Сообщать о личных сообщениях</translate>
+					</label>
+					<label>
+						<checkbox-option param="vm.options.groups"></checkbox-option>
+						<translate>Сообщать о приглашениях в группы</translate>
+					</label>
+					<label>
+						<checkbox-option param="vm.options.app_requests"></checkbox-option>
+						<translate>Сообщать о приглашениях в игры</translate>
+					</label>
+					<label>
+						<checkbox-option param="vm.options.wall"></checkbox-option>
+						<translate>Сообщать о записях</translate>
+					</label>
+					<label>
+						<checkbox-option param="vm.options.mentions"></checkbox-option>
+						<translate>Сообщать об упоминаниях в записях, в комментариях или в обсуждениях</translate>
+					</label>
+					<label>
+						<checkbox-option param="vm.options.comments"></checkbox-option>
+						<translate>Сообщать о комментариях к записям, фотографиям и видеозаписям</translate>
+					</label>
+					<label>
+						<checkbox-option param="vm.options.likes"></checkbox-option>
+						<translate>Сообщать об отметках «Мне нравится»</translate>
+					</label>
+					<label>
+						<checkbox-option param="vm.options.reposts"></checkbox-option>
+						<translate>Сообщать о скопированных записях, фотографиях и видеозаписях</translate>
+					</label>
+					<label>
+						<checkbox-option param="vm.options.followers"></checkbox-option>
+						<translate>Сообщать о новых подписчиках</translate>
+					</label>
+				</div>
+			</div>
+
+			<div class="panel audioOption box">
+				<div class="header" translate >Звуковые уведомления</div>
+				<div class="content">
+					<label ng-class="{'active': vm.options.audio == 0}">
+						<i class="fa fa-volume-off"></i>
+						<translate>Выключить</translate>
+						<input ng-model="vm.options.audio" type="radio" ng-value="0"/>
+					</label>
+					<label ng-class="{'active': vm.options.audio == 1}">
+						<i class="fa fa-volume-down"></i>
+						<translate>При закрытом ВК</translate>
+						<input ng-model="vm.options.audio" type="radio" ng-value="1"/>
+					</label>
+					<label ng-class="{'active': vm.options.audio == 2}">
+						<i class="fa fa-volume-up"></i>
+						<translate>Всегда</translate>
+						<input ng-model="vm.options.audio" type="radio" ng-value="2"/>
+					</label>
+				</div>
+			</div>
+
+			<div class="buttons-conteiner box">
+				<button ng-disabled="!vm.isOptionNotSaved()" ng-click="vm.saveOptions()" ng-class="'save'" disabled="disabled" >
+					<translate ng-hide="vm.isOptionNotSaved()">Сохранено</translate>
+					<translate ng-show="vm.isOptionNotSaved()">Сохранить</translate>
+				</button>
+				<button ng-click="vm.clearData()" class="clear"><i class="fa fa-trash-o fa-lg"></i> <translate>Удалить все данные расширения</translate></button>
+			</div>
+		</div>
+		<div class="widget box" id="vk_groups"></div>
+	</div>
+	<script src="/vendors/js/vendors.js"></script>
+	<script src="/Translations/all.js"></script>
+	<script src="/StorageApp/StorageApp.js"></script>
+	<script src="/VkApp/VkApp.js"></script>
+	<script src="/HeaderApp/HeaderApp.js"></script>
+	<script src="/libs/Helpers.js"></script>
+	<script src="https://vk.com/js/api/openapi.js"></script>
+	<script src="/OptionsApp/OptionsApp.js"></script>
+</body>
+</html>

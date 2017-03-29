@@ -1,0 +1,22 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "xkit.css" ],
+      "exclude_matches": [ "https://www.tumblr.com/upload/image*, http://www.tumblr.com/upload/image*" ],
+      "js": [ "bridge.js", "jquery.js", "tiptip.js", "moment.js", "nano.js", "xkit.js" ],
+      "matches": [ "http://*.tumblr.com/*", "https://*.tumblr.com/*" ]
+   } ],
+   "description": "A fork of XKit, the extension framework for Tumblr.",
+   "homepage_url": "https://github.com/new-xkit/XKit",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgJHiD/7CJLacPX73QY+uP6VHXMMVjuMnG75o+A3JjlvwU5+mt2s2MJ3543Y8qYq447M1O2VSmm8pZMx9fndeyMpnq64jPcgMkCUkR8GcLQ2Xf/+78S62xu/2esVaaukAcOfrFVYHCDojcTE14mhLP6+CiSPwYrfjhOlcuKKHpGRtmBItyBeOqJ/U7oeYDh3VZv8vt3axkHYEK750rZPXPz1cJL1HA5a4t5mF4BXSxAjVgysyQ3+sQfV4tdzQTmKL3kgg15qqSkmU8VPQDxCaWazWHIV0n9DxUxIujjp52AQkZ0q7+SZuwJ9zZFsL/9LH+Fbx2q0ejRrawrnTWxcL8wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "27.0",
+   "name": "New XKit",
+   "permissions": [ "*://*/*", "*://*/", "unlimitedStorage", "storage", "http://*.tumblr.com/", "https://*.tumblr.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.7.1",
+   "web_accessible_resources": [ "manifest.json", "editor.js" ]
+}

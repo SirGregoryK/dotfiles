@@ -1,0 +1,53 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/c.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "css/as.css" ],
+      "exclude_matches": [ "*://*.youtube.com/embed/*", "*://*.youtube.com/tv*", "*://gaming.youtube.com/" ],
+      "js": [ "js/uMCc.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "include_globs": [ "*widget/render/comments*%3A%2F%2Fwww.youtube.com*" ],
+      "js": [ "js/GVdV.js" ],
+      "matches": [ "*://plus.googleapis.com/*", "*://apis.google.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "js/VQ.js" ],
+      "matches": [ "https://www.chromeactions.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "default-src 'self';img-src 'self';connect-src 'self' https://www.chromeactions.com https://www.google-analytics.com https://clients2.google.com;frame-ancestors 'self' https://www.chromeactions.com https://*.youtube.com;report-uri https://appn.center/apiv1/csp;",
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "icons": {
+      "128": "i/128.png",
+      "16": "i/16.png",
+      "48": "i/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDyfOC0uiQNOM7ITQ13U1fOKx/SBYgiUJf8yjLOcjEHs+MrAw3dUWWEYsR8LfUpzKKzhvtxugI+fwpdG4cfEIFuQQgmkZgJfFHmoDuBQmDO7QB4+SXk8lq6nLb4JwujZ6rOJ6LYPX0PDtPMaynAI8jiRI1HpGJVSBA5epPrJZo1cQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "27.0",
+   "name": "__MSG_extName__",
+   "options_page": "iaav.html",
+   "options_ui": {
+      "chrome_style": false,
+      "page": "iaav.html"
+   },
+   "page_action": {
+      "default_icon": {
+         "19": "i/19b.png",
+         "38": "i/38.png"
+      },
+      "default_popup": "gY.html",
+      "default_title": "__MSG_extName__"
+   },
+   "permissions": [ "tabs", "storage", "contextMenus", "http://*/*", "https://*/*" ],
+   "short_name": "MAFY",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.9.3.7",
+   "web_accessible_resources": [ "data.json", "QNVy.html", "hGjX.html", "i/16.png", "i/6937.png", "i/inst.jpg", "i/btns.png", "i/notify.ogg", "i/v.json", "i/r.svg", "i/sw.png", "i/col.png", "css/oYJV.css", "css/TiPv.css" ]
+}

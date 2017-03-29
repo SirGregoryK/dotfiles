@@ -1,0 +1,63 @@
+.stream {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(38, 38, 38);
+    padding: 10px;
+    position: relative;
+    color: rgb(120, 120, 120);
+    cursor: pointer;
+    min-height: 40px;
+    font-size: 11px;
+}
+
+.stream:hover {
+    background-color: rgb(35, 35, 35);
+}
+
+.stream:active {
+    background-color: rgb(25, 25, 25);
+    border-top: 1px solid rgb(25, 25, 25);
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.stream-uptime {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: none;
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;
+    padding: 2px;
+}
+
+.stream .notify {
+    background: url("../img/bubble.png") no-repeat;
+    width: 17px;
+    height: 17px;
+}
+
+.stream .stream-title {
+    color: rgb(200, 200, 200);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.stream:hover .stream-title {
+    color: rgb(238, 238, 238);
+}
+
+.stream .stream-preview {
+    width: 74px;
+    height: 42px;
+}
+
+.stream .stream-info {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.3;
+}

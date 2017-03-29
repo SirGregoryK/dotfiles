@@ -1,0 +1,57 @@
+2017/03/28-23:52:20.919 10592 Reusing MANIFEST /home/helplessman/.config/vivaldi/Default/Local Extension Settings/jlokilojbcmfijbgbioojlnhejhnikhn/MANIFEST-000001
+2017/03/28-23:52:20.919 10592 Recovering log #213
+2017/03/28-23:52:20.927 10592 Reusing old log /home/helplessman/.config/vivaldi/Default/Local Extension Settings/jlokilojbcmfijbgbioojlnhejhnikhn/000213.log 
+2017/03/29-00:00:16.875 11387 Level-0 table #218: started
+2017/03/29-00:00:17.275 11387 Level-0 table #218: 1848048 bytes OK
+2017/03/29-00:00:17.294 11387 Delete type=0 #213
+2017/03/29-00:01:06.590 11387 Compacting 1@1 + 1@2 files
+2017/03/29-00:01:06.604 11387 Generated table #219@1: 13 keys, 21108 bytes
+2017/03/29-00:01:06.604 11387 Compacted 1@1 + 1@2 files => 21108 bytes
+2017/03/29-00:01:06.615 11387 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/03/29-00:01:06.615 11387 Delete type=2 #215
+2017/03/29-00:01:06.615 11387 Delete type=2 #218
+2017/03/29-00:56:47.912 11387 Level-0 table #221: started
+2017/03/29-00:56:47.960 11387 Level-0 table #221: 1818016 bytes OK
+2017/03/29-00:56:47.974 11387 Delete type=0 #217
+2017/03/29-00:57:35.320 11387 Compacting 1@1 + 1@2 files
+2017/03/29-00:57:35.340 11387 Generated table #222@1: 13 keys, 20963 bytes
+2017/03/29-00:57:35.340 11387 Compacted 1@1 + 1@2 files => 20963 bytes
+2017/03/29-00:57:35.352 11387 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/03/29-00:57:35.353 11387 Delete type=2 #219
+2017/03/29-00:57:35.353 11387 Delete type=2 #221
+2017/03/29-02:04:16.631 11387 Level-0 table #224: started
+2017/03/29-02:04:16.682 11387 Level-0 table #224: 1847877 bytes OK
+2017/03/29-02:04:16.695 11387 Delete type=0 #220
+2017/03/29-02:05:17.373 11387 Compacting 1@1 + 1@2 files
+2017/03/29-02:05:17.386 11387 Generated table #225@1: 13 keys, 20293 bytes
+2017/03/29-02:05:17.386 11387 Compacted 1@1 + 1@2 files => 20293 bytes
+2017/03/29-02:05:17.398 11387 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/03/29-02:05:17.398 11387 Delete type=2 #222
+2017/03/29-02:05:17.398 11387 Delete type=2 #224
+2017/03/29-06:32:55.982 11387 Level-0 table #227: started
+2017/03/29-06:32:56.040 11387 Level-0 table #227: 1802574 bytes OK
+2017/03/29-06:32:56.054 11387 Delete type=0 #223
+2017/03/29-06:33:46.794 11387 Compacting 1@1 + 1@2 files
+2017/03/29-06:33:46.806 11387 Generated table #228@1: 13 keys, 20379 bytes
+2017/03/29-06:33:46.806 11387 Compacted 1@1 + 1@2 files => 20379 bytes
+2017/03/29-06:33:46.817 11387 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/03/29-06:33:46.817 11387 Delete type=2 #225
+2017/03/29-06:33:46.817 11387 Delete type=2 #227
+2017/03/29-08:31:20.579 11387 Level-0 table #230: started
+2017/03/29-08:31:20.638 11387 Level-0 table #230: 1790412 bytes OK
+2017/03/29-08:31:20.652 11387 Delete type=0 #226
+2017/03/29-08:32:22.301 11387 Compacting 1@1 + 1@2 files
+2017/03/29-08:32:22.312 11387 Generated table #231@1: 13 keys, 20157 bytes
+2017/03/29-08:32:22.312 11387 Compacted 1@1 + 1@2 files => 20157 bytes
+2017/03/29-08:32:22.325 11387 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/03/29-08:32:22.325 11387 Delete type=2 #228
+2017/03/29-08:32:22.325 11387 Delete type=2 #230
+2017/03/29-09:53:39.139 11387 Level-0 table #233: started
+2017/03/29-09:53:39.528 11387 Level-0 table #233: 1789424 bytes OK
+2017/03/29-09:53:39.543 11387 Delete type=0 #229
+2017/03/29-09:54:27.966 11387 Compacting 1@1 + 1@2 files
+2017/03/29-09:54:27.982 11387 Generated table #234@1: 13 keys, 19806 bytes
+2017/03/29-09:54:27.982 11387 Compacted 1@1 + 1@2 files => 19806 bytes
+2017/03/29-09:54:27.996 11387 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/03/29-09:54:27.996 11387 Delete type=2 #231
+2017/03/29-09:54:27.997 11387 Delete type=2 #233

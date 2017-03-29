@@ -1,0 +1,25 @@
+{
+   "background": {
+      "page": "html/background.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "ニコニコ動画から音声を抽出して保存します。",
+   "icons": {
+      "128": "img/128.png",
+      "48": "img/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKUGgnk0ZVhKdSWywE8cdLCvQjBIr0CxhOBJr4ZL58UxQ9jFrHjuqJFklJeSVOPbMpYpVF5SR3cFwO/r4/frzmwXeOoppOjT/kkpDtvbUGurpiGeM7KKgqb+nMQPyYYEY/nNGrJ07Iu7f/uaI99cuLnuSWW8qtXyz/4vIm4RRLYQIDAQAB",
+   "manifest_version": 2,
+   "name": "NicoNico Audio Extractor",
+   "page_action": {
+      "default_icon": {
+         "19": "img/19.png",
+         "38": "img/19.png"
+      },
+      "default_popup": "html/page.html",
+      "default_title": "niconico audio extractor"
+   },
+   "permissions": [ "http://*.nicovideo.jp/*", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4.2"
+}

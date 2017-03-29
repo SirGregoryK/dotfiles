@@ -1,0 +1,37 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": "im/38g.png",
+      "default_title": "__MSG_browser_action_title__"
+   },
+   "content_scripts": [ {
+      "css": [ "css/inj2.css" ],
+      "js": [ "lib/MooTools-Core-1.5.2-compat-compressed.js", "js/s2.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "si.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_chrome_extension_description__",
+   "icons": {
+      "128": "im/128.png",
+      "64": "im/64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEUj9IakuGvaetnq8XU5PCIMW52j7FawuRB3jcQboxaF7RkykxJhJYKrEyx1YpAcRiqbNUM7OBZkCQBXSqnuNd/0SET16ZfeJJcbKX+0wSlDg9VdsKf3CifDmgIZWeelfq7Ex2zB6dsiyvnTrwIzH5wusWXqnmIjS4I89lstYq6QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "35",
+   "name": "__MSG_chrome_extension_name__",
+   "options_page": "options.html",
+   "permissions": [ "idle", "webNavigation", "contextMenus", "webRequest", "webRequestBlocking", "unlimitedStorage", "tabs", "proxy", "browsingData", "storage", "http://*/*", "https://*/*", "*://*/*", "\u003Call_urls>" ],
+   "short_name": "__MSG_chrome_extension_sname__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.159",
+   "web_accessible_resources": [ "im/*.png", "im/*.gif", "lib/*.js" ]
+}

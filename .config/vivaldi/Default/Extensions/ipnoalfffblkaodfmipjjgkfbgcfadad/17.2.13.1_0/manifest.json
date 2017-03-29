@@ -1,0 +1,22 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "Dollchan_Extension_Tools.user.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "The best way to browse imageboards",
+   "homepage_url": "https://github.com/SthephanShinkufag/Dollchan-Extension-Tools/",
+   "icons": {
+      "128": "128.png",
+      "16": "16.png",
+      "32": "32.png",
+      "48": "48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmevXh/LGgnkPmt6+xH/Wi1frnmtTkCXiCZQS5/u0DetGu3dne4ICBShr8Vuq+/FgIdFqSrcpkONYEp4eid2Edjh1IPfrVtPRvP5mFe5drwnqA/022Jr3N2TdB6Wwq/Ml+2PdLTpJyG5ZX8Qy4PlSpvVdUE5d8btHUBWAi9/NLwT//ShqLEAWef3WBY+Lkh5fCXhxxnrQahwvfdbMU0x420XCW+8RKFV+joPXHpXfdvaAnLdCH5Uwj1DS8MdggSZC2gI8PE9nyCxx4ZyxOL1mJ5rGKLlHS2uO4iZgqiCo7Zr7ajNw6imNRJHttFNE5lv0hibDtSEqDGoLTK9xEDF7LQIDAQAB",
+   "manifest_version": 2,
+   "name": "Dollchan Extension Tools",
+   "permissions": [ "storage", "unlimitedStorage", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "17.2.13.1"
+}

@@ -1,0 +1,130 @@
+html {
+	height: 100%;
+}
+
+body {
+    margin-bottom: -2em;
+    min-height: 100%;
+    overflow: auto;
+    padding-bottom: 2em;
+}
+
+.hidden {
+	display: none !important;
+}
+
+#central_block_my_page,
+.bl_capt,
+th {
+	background: none;
+}
+
+#profile_forms .block,
+#profile_main .block {
+    padding:0;
+}
+
+#voice_menu {
+	width: 100%;
+}
+
+#user_css {
+	font: 100% monospace;
+}
+
+#words a {
+	text-decoration: underline;
+	color: #199BDC;
+	cursor: pointer;
+}
+#words a.selected{
+	text-decoration: none;
+	color: #DA251D;
+	cursor: default;
+}
+#general_settings input:not(.menu-checkbox):not(.option-checkbox):not(.forbidden-informers-checkbox)[type=checkbox],
+#general_settings input:not(.menu-checkbox):not(.option-checkbox)[type=radio] {
+	position: relative;
+	top: 0.25em;
+}
+#general_settings input:not(.menu-checkbox):not(.option-checkbox):not(.forbidden-informers-checkbox)[type=checkbox],
+#general_settings input.ksmall {
+	transform: scale(0.7);
+	-webkit-transform: scale(0.69);
+}
+
+#general_settings input.informer-checkbox {
+	margin: 3px 3px 3px 0;
+}
+
+#general_settings span.clickable {
+	border-bottom: 1px dashed darkgray;
+	cursor: pointer;
+}
+
+#options_saved {
+	font-style: italic;
+	font-size: 0.7em;
+	padding-top: 1.0em;
+}
+
+#optdimmer {
+	background: #000;
+	position: fixed;
+	width:100%;
+	height:100%;
+	opacity: .5;
+	top: 0;
+	z-index:99;
+}
+
+#optlightbox {
+	visibility: hidden;
+	position: absolute;
+	z-index: 100;
+}
+
+#optlightbox fieldset {
+	height: 90%;
+}
+
+#lightbox_desc {
+	margin-top: 7px;
+	margin-left: 10px;
+	text-align: left;
+}
+
+#lightbox_table {
+	overflow-Y: scroll;
+	margin: 0 0 5px 0;
+}
+
+#lightbox_ieblock {
+	padding-top: 0.4em;
+	width: 95%;
+}
+
+.lightbox_expanded {
+	padding-bottom: 1.5em;
+}
+
+.lightbox_row input {
+	vertical-align: middle;
+}
+
+.e_new_line {
+	text-align: center;
+	clear: both;
+	padding: 5px;
+	width: 95%;
+}
+
+.e_bl_cell {
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+
+.e_dragging {
+	cursor: move;
+	margin-right: 5px;
+}

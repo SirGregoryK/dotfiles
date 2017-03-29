@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doublecmd>
+  <History>
+    <Navigation>
+      <Item>/</Item>
+      <Item>/run/user/1000/gvfs/</Item>
+      <Item>/home/helplessman/.local/share/Trash/files/</Item>
+      <Item>/home/helplessman/.local/share/Trash/</Item>
+      <Item>/home/helplessman/.local/share/Trash/expunged/</Item>
+      <Item>/home/helplessman/.local/share/</Item>
+      <Item>/home/helplessman/.local/</Item>
+      <Item>/home/helplessman/</Item>
+      <Item>/home/</Item>
+      <Item>/boot/</Item>
+      <Item>/mnt/sshfs/Vega/</Item>
+      <Item>/mnt/sshfs/Vega/.Trash-1000/</Item>
+      <Item>/mnt/sshfs/Vega/.Trash-1000/files/</Item>
+      <Item>/usr/lib/doublecmd/</Item>
+      <Item>/home/helplessman/Torrents/</Item>
+      <Item>/run/user/1000/</Item>
+      <Item>/home/helplessman/Загрузки/</Item>
+      <Item>/home/helplessman/Загрузки/ASF/</Item>
+      <Item>/usr/</Item>
+      <Item>/usr/lib/</Item>
+    </Navigation>
+    <CommandLine>
+      <Item>trash</Item>
+      <Item>TRASH://</Item>
+      <Item>/</Item>
+    </CommandLine>
+    <FileMask>
+      <Item>*.*</Item>
+    </FileMask>
+    <SearchText/>
+    <SearchTextPath/>
+    <ReplaceText/>
+    <ReplaceTextPath/>
+    <SearchExcludeFiles/>
+    <SearchExcludeDirectories/>
+  </History>
+</doublecmd>

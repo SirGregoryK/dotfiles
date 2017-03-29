@@ -1,0 +1,8 @@
+.post .post_wrapper .post_tags, .post .post_wrapper .post_tags .post_tags_inner{white-space:normal!important;display:block!important;width:500px!important;line-height: 17px!important;}
+.post .post_tags_inner{float:none!important;}
+.post_tags, .post_tags_inner, .draggable, .dragging, .post_tag{left:-1px!important;cursor:pointer!important;-webkit-transform:translate(0px,0)!important;}
+.source_url_gradient{visibility:hidden;}
+.post .post_tags .post_tag{display:inline!important; -webkit-user-select: initial!important;}
+.post_full .post_tags:after{background:inherit!important;}
+.post_full .post_tags .post_tag.featured{padding:3px 6px 2px 5px!important;}
+.post.has_source.generic_source .post_tags.draggable {margin-left: 15px!important;}

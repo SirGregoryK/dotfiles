@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "css": [ "main.css" ],
+      "matches": [ "http://*.tumblr.com/*", "https://*.tumblr.com/*" ]
+   } ],
+   "description": "Allows Tumblr tags to wrap around without having to use the awful drag-scrolling interface.",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "48": "icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnhAjdu+vG3ezHaJPTdsjoZ3nd0a3724ZCxvQBvmt9hkbobW3Chsp10P0u7fEIbZScxK0+jVZyI3wjV40A0vc349Ofw4InfVmOXch1M/WMITFzs/MGjQQwGu28vPa9x+E3/vt0EXwLrOTC5cxf9IvHVIifu3SkrG2VStw2B9fZNQIDAQAB",
+   "manifest_version": 2,
+   "name": "#wrap",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3.3"
+}

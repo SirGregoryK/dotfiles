@@ -1,0 +1,305 @@
+{
+   "m1": {
+      "message": "Ordenar streams por"
+   },
+   "m10": {
+      "message": "espectadores ascendente"
+   },
+   "m100": {
+      "message": "abrir no livestreamer"
+   },
+   "m101": {
+      "message": "leitor html5 (flash plugin não é necessário)"
+   },
+   "m11": {
+      "message": "espectadores descendente"
+   },
+   "m12": {
+      "message": "título A-Z"
+   },
+   "m13": {
+      "message": "título Z-A"
+   },
+   "m14": {
+      "message": "recente"
+   },
+   "m15": {
+      "message": "antigo layout"
+   },
+   "m16": {
+      "message": "novo layout"
+   },
+   "m17": {
+      "message": "popout"
+   },
+   "m18": {
+      "message": "nova janela"
+   },
+   "m19": {
+      "message": "novo separador"
+   },
+   "m2": {
+      "message": "Abrir streams com"
+   },
+   "m20": {
+      "message": "chat"
+   },
+   "m21": {
+      "message": "vídeos"
+   },
+   "m22": {
+      "message": "seguir"
+   },
+   "m23": {
+      "message": "deixar de seguir"
+   },
+   "m24": {
+      "message": "Partilhar"
+   },
+   "m25": {
+      "message": "abrir em novo separador"
+   },
+   "m26": {
+      "message": "abrir em popout"
+   },
+   "m27": {
+      "message": "Atualizar"
+   },
+   "m28": {
+      "message": "Filtro"
+   },
+   "m29": {
+      "message": "partilhar no twitter"
+   },
+   "m3": {
+      "message": "Abrir chat em"
+   },
+   "m30": {
+      "message": "partilhar no facebook"
+   },
+   "m31": {
+      "message": "partilhar no google+"
+   },
+   "m32": {
+      "message": "partilhar no vk"
+   },
+   "m33": {
+      "message": "Streams seguidas"
+   },
+   "m34": {
+      "message": "Procurar jogos"
+   },
+   "m35": {
+      "message": "Procurar"
+   },
+   "m36": {
+      "message": "Definições"
+   },
+   "m37": {
+      "message": "Ajuda e Informações"
+   },
+   "m38": {
+      "message": "Conecte-se para acompanhar as streams seguidas e para receber notificações quando estas iniciarem a transmissão"
+   },
+   "m39": {
+      "message": "Suporte oficial"
+   },
+   "m4": {
+      "message": "Mostrar um emblema com as streams seguidas que estão em transmissão"
+   },
+   "m40": {
+      "message": "Suporte \"Twitch Now\""
+   },
+   "m41": {
+      "message": "Se quiser ver outras versões para browser do \"Twitch Now\" ou apenas dizer \"obrigado\" clique aqui:"
+   },
+   "m42": {
+      "message": "Tem questões ou encontrou um erro?"
+   },
+   "m43": {
+      "message": "Doar"
+   },
+   "m44": {
+      "message": "Guardar definições"
+   },
+   "m45": {
+      "message": "espectadores"
+   },
+   "m46": {
+      "message": "canais"
+   },
+   "m47": {
+      "message": "minutos"
+   },
+   "m48": {
+      "message": "Impossível carregar streams. Verifique a sua conecção à internet e tente atualizar manualmente."
+   },
+   "m49": {
+      "message": "Sem vídeos disponíveis para este canal"
+   },
+   "m5": {
+      "message": "Mostrar notificações quando as streams seguidas iniciam a transmissão"
+   },
+   "m50": {
+      "message": "Sem resultados de pesquisa"
+   },
+   "m51": {
+      "message": "Streams populares"
+   },
+   "m52": {
+      "message": "Login"
+   },
+   "m53": {
+      "message": "Logout"
+   },
+   "m54": {
+      "message": "Ver Todas as Streams"
+   },
+   "m55": {
+      "message": "Tipo do Tema"
+   },
+   "m56": {
+      "message": "versão escura"
+   },
+   "m57": {
+      "message": "versão branca"
+   },
+   "m58": {
+      "message": "repositório do GitHub"
+   },
+   "m59": {
+      "message": "Ajude a traduzir o \"Twitch Now\""
+   },
+   "m6": {
+      "message": "Fechar automaticamente a notificação depois"
+   },
+   "m60": {
+      "message": "Se quiser ajudar a traduzir, vá ao repositório GitHub do \"Twitch Now\""
+   },
+   "m61": {
+      "message": "Localização do canal Twitch.tv"
+   },
+   "m62": {
+      "message": "Altura da janela"
+   },
+   "m63": {
+      "message": "sem localização"
+   },
+   "m64": {
+      "message": "Contribuidores"
+   },
+   "m65": {
+      "message": "visual simples(sem imagens, títulos, etc)"
+   },
+   "m66": {
+      "message": "Separador predefinido"
+   },
+   "m67": {
+      "message": "streams seguidas"
+   },
+   "m68": {
+      "message": "jogos"
+   },
+   "m69": {
+      "message": "streams populares"
+   },
+   "m7": {
+      "message": "Reproduzir som de notificação"
+   },
+   "m70": {
+      "message": "fixar este jogo"
+   },
+   "m71": {
+      "message": "abrir stream"
+   },
+   "m72": {
+      "message": "logado como"
+   },
+   "m73": {
+      "message": "Faça login para ver os seus canais favoritos"
+   },
+   "m74": {
+      "message": "Se aprecia esta aplicação e gostaria de me ajudar, pode fazê-lo ao doar via Paypal ou Bitcoin:"
+   },
+   "m75": {
+      "message": "Carregar um som"
+   },
+   "m76": {
+      "message": "som personalizado"
+   },
+   "m77": {
+      "message": "\"Twitch Now\" para outros browsers"
+   },
+   "m78": {
+      "message": "Versão Chrome"
+   },
+   "m79": {
+      "message": "Versão Opera"
+   },
+   "m8": {
+      "message": "Selecionar o som de notificação"
+   },
+   "m80": {
+      "message": "Versão Firefox"
+   },
+   "m81": {
+      "message": "Jogos seguidos"
+   },
+   "m82": {
+      "message": "jogo"
+   },
+   "m83": {
+      "message": "seguir jogo"
+   },
+   "m84": {
+      "message": "deixar de seguir jogo"
+   },
+   "m85": {
+      "message": "Gerir notificações"
+   },
+   "m86": {
+      "message": "Volume das notificações"
+   },
+   "m87": {
+      "message": "ver em Multitwitch.tv"
+   },
+   "m88": {
+      "message": "abrir num novo separador com o modo de teatro ativo"
+   },
+   "m89": {
+      "message": "streams"
+   },
+   "m9": {
+      "message": "Intervalo de atualização"
+   },
+   "m90": {
+      "message": "Gerir notificações do canal"
+   },
+   "m91": {
+      "message": "Vai receber uma notificação no desktop ou com som quando um canal que segue iniciar a transmissão."
+   },
+   "m92": {
+      "message": "Selecionar"
+   },
+   "m93": {
+      "message": "As suas preferências de notificação foram alteradas."
+   },
+   "m94": {
+      "message": "Desfazer"
+   },
+   "m95": {
+      "message": "Todo desktop"
+   },
+   "m96": {
+      "message": "Nenhum desktop"
+   },
+   "m97": {
+      "message": "Todo som"
+   },
+   "m98": {
+      "message": "Nenhum som"
+   },
+   "m99": {
+      "message": "Som da notificação com repetição"
+   }
+}
