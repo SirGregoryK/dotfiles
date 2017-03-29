@@ -15,4 +15,3 @@ alias ll='ls -alF --color=auto'
 eval $(thefuck --alias)
 eval $(thefuck --alias FUCK)
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash

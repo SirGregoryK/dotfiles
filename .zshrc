@@ -77,4 +77,3 @@ compinit
 		alias scrot-select='scrot -q 100 -s ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png'
 		alias scrot-window='scrot -q 100 -u ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png'
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
