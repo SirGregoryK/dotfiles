@@ -10,8 +10,8 @@
 [colors]
 ;background = ${xrdb:color0:#222}
 ;background = #222
-background =#80000000
-background-alt = #444
+background = #404040
+background-alt = #404040
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
 foreground-alt = #555
@@ -49,13 +49,13 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm i3
-modules-center = 
+modules-center =
 modules-right = filesystem backlight-acpi volume xkeyboard memory cpu wlan eth battery temperature date powermenu
 
 tray-position = right
 tray-padding = 2
 ;tray-transparent = true
-;tray-background = #0063ff
+tray-background = #404040
 
 ;wm-restack = bspwm
 ;wm-restack = i3

@@ -15,3 +15,4 @@ alias ll='ls -alF --color=auto'
 eval $(thefuck --alias)
 eval $(thefuck --alias FUCK)
 
+

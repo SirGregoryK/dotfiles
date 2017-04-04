@@ -63,6 +63,7 @@ endif
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'w0rp/ale'
+Plug 'lilydjwg/colorizer'
 Plug 'raimondi/delimitmate'
 Plug 'shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'junegunn/fzf.vim'

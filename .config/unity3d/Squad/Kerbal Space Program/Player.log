@@ -1,20 +1,8 @@
+ERROR: ld.so: object '/home/helplessman/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/helplessman/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
 Setting breakpad minidump AppID = 220200
 Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198051408621 [API loaded no]
-ZE=8
-GLX_ALPHA_SIZE=8
-GLX_DEPTH_SIZE=24
-GLX_STENCIL_SIZE=8
-GLX_SAMPLES_ARB=0
-GLX_SAMPLE_BUFFERS_ARB=0
-GLX_STEREO=0
-GLX_CONFIG_CAVEAT=NONE
-
-Desktop is 1920 x 1080 @ 60 Hz
-Initialize engine version: 5.4.0p4 (b15b5ae035b7)
-GfxDevice: creating device client; threaded=1
-GPU_MEMORY_INFO_DEDICATED_VIDMEM_NVX: 4194304
-OpenGL:
-    Version:  OpenGL 4.5 [4.5.0 NVIDIA 378.13]
+.5 [4.5.0 NVIDIA 378.13]
     Renderer: GeForce GTX 950M/PCIe/SSE2
     Vendor:   NVIDIA Corporation
     VRAM:     4096 MB
@@ -48,7 +36,7 @@ Platform assembly: /home/helplessman/.local/share/Steam/SteamApps/common/Kerbal 
 Loading /home/helplessman/.local/share/Steam/SteamApps/common/Kerbal Space Program/KSP_Data/Managed/xmldiffpatch.dll into Unity Child Domain
 Platform assembly: /home/helplessman/.local/share/Steam/SteamApps/common/Kerbal Space Program/KSP_Data/Managed/XmlDiffPatch.View.dll (this message is harmless)
 Loading /home/helplessman/.local/share/Steam/SteamApps/common/Kerbal Space Program/KSP_Data/Managed/XmlDiffPatch.View.dll into Unity Child Domain
-- Completed reload, in  0.045 seconds
+- Completed reload, in  0.048 seconds
 Platform assembly: /home/helplessman/.local/share/Steam/SteamApps/common/Kerbal Space Program/KSP_Data/Managed/System.Core.dll (this message is harmless)
 Platform assembly: /home/helplessman/.local/share/Steam/SteamApps/common/Kerbal Space Program/KSP_Data/Managed/System.dll (this message is harmless)
 Platform assembly: /home/helplessman/.local/share/Steam/SteamApps/common/Kerbal Space Program/KSP_Data/Managed/Boo.Lang.dll (this message is harmless)
@@ -61,7 +49,7 @@ Using libudev for joystick management
 
 
 Importing game controller configs
-UnloadTime: 1.702000 ms
+UnloadTime: 2.183000 ms
 Release Build
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
@@ -173,7 +161,7 @@ Load(Audio): Squad/Sounds/editorLoop01
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-requesting resize 953 x 1043
+requesting resize 1910 x 1043
 
 Selecting FBConfig
 GLX_FBCONFIG_ID=281
@@ -190,7 +178,7 @@ GLX_SAMPLE_BUFFERS_ARB=1
 GLX_STEREO=0
 GLX_CONFIG_CAVEAT=NON-CONFORMANT
 
-resizing window to 953 x 1043
+resizing window to 1910 x 1043
 Desktop is 1920 x 1080 @ 60 Hz
 Load(Audio): Squad/Sounds/elev_loop
  
@@ -5133,6 +5121,26 @@ AssetLoader: Loaded bundle '/home/helplessman/.local/share/Steam/SteamApps/commo
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
+[KSPSteamController]: Action set handle for MenuControls has &0. That's probably not right.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[KSPSteamController]: Action set handle for FlightControls has &0. That's probably not right.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[KSPSteamController]: Action set handle for DockingControls has &0. That's probably not right.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[KSPSteamController]: Action set handle for EditorControls has &0. That's probably not right.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[KSPSteamController]: Action set handle for MapControls has &0. That's probably not right.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
 AssetLoader: Loaded bundle '/home/helplessman/.local/share/Steam/SteamApps/common/Kerbal Space Program/GameData/Squad/KSPedia/kspedia_career.ksp'
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
@@ -5374,26 +5382,6 @@ AssetLoader: Loaded bundle '/home/helplessman/.local/share/Steam/SteamApps/commo
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 AssetLoader: Loaded bundle '/home/helplessman/.local/share/Steam/SteamApps/common/Kerbal Space Program/GameData/Squad/KSPedia/kspedia_facilities-launchpad.ksp'
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-[KSPSteamController]: Action set handle for MenuControls has &0. That's probably not right.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-[KSPSteamController]: Action set handle for FlightControls has &0. That's probably not right.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-[KSPSteamController]: Action set handle for DockingControls has &0. That's probably not right.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-[KSPSteamController]: Action set handle for EditorControls has &0. That's probably not right.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-[KSPSteamController]: Action set handle for MapControls has &0. That's probably not right.
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
@@ -7689,7 +7677,7 @@ CodeAssetLoader: Compiling all code assets
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-GameDatabase: Assets loaded in 52.482s
+GameDatabase: Assets loaded in 42.103s
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
@@ -9201,7 +9189,7 @@ PartLoader: Compiling Internal Space 'Squad/Spaces/mk2InlineInternal/internal/mk
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-Loading Systems: Elapsed time is 54.71283s
+Loading Systems: Elapsed time is 44.55875s
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
@@ -9246,10 +9234,10 @@ The referenced script on this Behaviour (Game Object '<null>') is missing!
 
 Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
 Shader 'AtmosphereFromGround': fallback shader 'None' not found
-UnloadTime: 5.634000 ms
+UnloadTime: 5.890000 ms
 
 Unloading 197 unused Assets to reduce memory usage. Loaded Objects now: 106648.
-Total: 91.004997 ms (FindLiveObjects: 6.157000 ms CreateObjectMapping: 4.067000 ms MarkObjects: 77.338005 ms  DeleteObjects: 3.441000 ms)
+Total: 94.674995 ms (FindLiveObjects: 5.375000 ms CreateObjectMapping: 3.488000 ms MarkObjects: 81.950005 ms  DeleteObjects: 3.861000 ms)
 
 [UIMasterController]: HideUI
  
@@ -9276,14 +9264,14 @@ Total: 91.004997 ms (FindLiveObjects: 6.157000 ms CreateObjectMapping: 4.067000 
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.814000 ms
+UnloadTime: 4.374000 ms
 [UIMasterController]: ShowUI
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 111165.
-Total: 146.943008 ms (FindLiveObjects: 5.220000 ms CreateObjectMapping: 3.417000 ms MarkObjects: 101.054001 ms  DeleteObjects: 37.250000 ms)
+Total: 149.932999 ms (FindLiveObjects: 5.510000 ms CreateObjectMapping: 3.971000 ms MarkObjects: 101.342995 ms  DeleteObjects: 39.108002 ms)
 
 [GameParameters]: Loaded custom parameter class CommNetParams.
  
@@ -9321,7 +9309,7 @@ Total: 146.943008 ms (FindLiveObjects: 5.220000 ms CreateObjectMapping: 3.417000
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-[MessageSystem] Reposition 0.03213908 15248
+[MessageSystem] Reposition 0.03713204 16067
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
@@ -9338,7 +9326,7 @@ The referenced script on this Behaviour (Game Object 'Screen') is missing!
 (Filename:  Line: 1656)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.780000 ms
+UnloadTime: 7.806000 ms
 UICanvasPrefabSpawner SettingsSpawner spawning Settings
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
@@ -9349,7 +9337,7 @@ UICanvasPrefabSpawner SettingsSpawner spawning Settings
 
 
 Unloading 184 unused Assets to reduce memory usage. Loaded Objects now: 110062.
-Total: 123.025002 ms (FindLiveObjects: 5.283000 ms CreateObjectMapping: 3.423000 ms MarkObjects: 107.516998 ms  DeleteObjects: 6.802000 ms)
+Total: 123.698006 ms (FindLiveObjects: 5.250000 ms CreateObjectMapping: 3.587000 ms MarkObjects: 107.258003 ms  DeleteObjects: 7.603000 ms)
 
 [ApplicationLauncher] OnSceneLoadedGUIReady: scene SETTINGS ShouldBeVisible() False ShouldBeOnTop() False iIsPositionedAtTop True
  
@@ -9364,25 +9352,25 @@ Total: 123.025002 ms (FindLiveObjects: 5.283000 ms CreateObjectMapping: 3.423000
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.131000 ms
+UnloadTime: 3.915000 ms
 [UIMasterController]: ShowUI
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 
-Unloading 698 unused Assets to reduce memory usage. Loaded Objects now: 111715.
-Total: 152.897995 ms (FindLiveObjects: 5.254000 ms CreateObjectMapping: 3.365000 ms MarkObjects: 104.198997 ms  DeleteObjects: 40.079998 ms)
+Unloading 1112 unused Assets to reduce memory usage. Loaded Objects now: 111301.
+Total: 157.205994 ms (FindLiveObjects: 5.347000 ms CreateObjectMapping: 3.652000 ms MarkObjects: 106.926003 ms  DeleteObjects: 41.280003 ms)
 
 [ApplicationLauncher] OnSceneLoadedGUIReady: scene MAINMENU ShouldBeVisible() True ShouldBeOnTop() True iIsPositionedAtTop True
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-[MessageSystem] Reposition 0.02 21957
+[MessageSystem] Reposition 0.02 20689
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 7fae25a44700 -> priority: 1 
+  Thread -> id: 7f81c4c78700 -> priority: 1 
 KSPSteamController - An exception was generated while shutting down the SteamControler
 System.InvalidOperationException: Steamworks is not initialized.
   at Steamworks.InteropHelp.TestIfAvailableClient () [0x00000] in <filename unknown>:0 

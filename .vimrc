@@ -63,9 +63,10 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'lilydjwg/colorizer'
 Plug 'raimondi/delimitmate'
+Plug 'junegunn/fzf.vim'
 Plug 'shougo/neocomplete.vim'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'xuyuanp/nerdtree-git-plugin'

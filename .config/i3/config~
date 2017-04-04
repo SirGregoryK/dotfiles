@@ -30,9 +30,10 @@
 		focus_follows_mouse no
 # [autoexec]
 	exec --no-startup-id	/usr/lib/mate-polkit/polkit-mate-authentication-agent-1
-	exec --no-startup-id	compton		--config ~/.config/compton/i3-compton.conf	--backend xr_glx_hybrid 	-b
+#	exec --no-startup-id	compton		--config ~/.config/compton/i3-compton.conf	--backend xr_glx_hybrid --vsync-use-glfinish 	-b
+	exec --no-startup-id	compton		--config /dev/null 	--backend xr_glx_hybrid --vsync-use-glfinish 	-b
 	exec --no-startup-id	numlockx
-	exec --no-startup-id	polybar	example
+#	exec --no-startup-id	polybar	example
 	exec --no-startup-id	dropbox
 	exec --no-startup-id 	redshift
 # [bindings]
@@ -53,8 +54,6 @@
 	# [window]
 		# [action]
 			bindsym $mod+$shft+q 	kill
-			bindsym $alt+F4		kill
-
 		# [state]
 			bindsym $mod+$shft+space 	floating 	toggle
 			bindsym $mod+$shft+f 		fullscreen 	toggle
@@ -181,8 +180,6 @@
 	# [applications]
 		bindsym $mod+Return 		exec	 	i3-sensible-terminal
 		bindsym $prtsc 			exec		scrot -q 100 ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png
-		bindsym $prtsc+f 		exec 		scrot -q 100 -s ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png
-		bindsym $prtsc+w 		exec 		scrot -q 100 -u ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png
 		bindsym $mod+d			exec 		rofi -show drun
 		bindsym $alt+F2 		exec 		rofi -show run
 		bindsym $alt+Tab 		exec 		rofi -show window
