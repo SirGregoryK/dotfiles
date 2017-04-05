@@ -1,6 +1,8 @@
 [Added Associations]
 application/x-ms-dos-executable=userapp-mono-9GD0XY.desktop;
 x-scheme-handler/https=vivaldi-stable.desktop;
+application/pdf=zathura.desktop;
+
 [Default Applications]
 application/xhtml_xml=vivaldi-stable.desktop;
 image/webp=vivaldi-stable.desktop;
@@ -9,4 +11,4 @@ text/xml=vivaldi-stable.desktop;
 x-scheme-handler/ftp=vivaldi-stable.desktop;
 x-scheme-handler/http=vivaldi-stable.desktop;"vivaldi-stable.desktop".desktop;
 x-scheme-handler/https=vivaldi-stable.desktop;
-
+application/pdf=zathura.desktop
