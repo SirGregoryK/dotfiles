@@ -66,6 +66,7 @@ Plug 'w0rp/ale'
 Plug 'lilydjwg/colorizer'
 Plug 'raimondi/delimitmate'
 Plug 'shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'

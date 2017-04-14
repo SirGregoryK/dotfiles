@@ -44,9 +44,16 @@ compinit
 			#[zsh-history-substring-search]
 				bindkey '^[[A' history-substring-search-up
   				bindkey '^[[B' history-substring-search-down
-  		# [begin/end of line]
-  			bindkey "${terminfo[khome]}" beginning-of-line
-			bindkey "${terminfo[kend]}" end-of-line
+  		# [navigation]
+  			# [next/previous word]
+  				bindkey "^[[1;5C" forward-word
+				bindkey "^[[1;5D" backward-word
+
+				# bindkey "^[[C" forward-word
+				# bindkey "^[[D" backward-word
+  			# [begin/end of line]
+  				bindkey "${terminfo[khome]}" beginning-of-line
+				bindkey "${terminfo[kend]}" end-of-line
 		# [forward delete]
 			bindkey    "^[[3~"          delete-char
 	# [aliases]
@@ -67,6 +74,7 @@ compinit
 		alias grep='grep -i'
 
 		alias rm='rm -i'
+		alias rmdir='rm -rfi'
 		alias cp='cp -i'
 		alias mv='mv -i'
 

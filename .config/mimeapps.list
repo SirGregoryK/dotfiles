@@ -1,7 +1,16 @@
 [Added Associations]
 application/x-ms-dos-executable=userapp-mono-9GD0XY.desktop;
-x-scheme-handler/https=vivaldi-stable.desktop;
+x-scheme-handler/https=exo-web-browser.desktop
 application/pdf=zathura.desktop;
+text/plain=sublime_text_3.desktop;
+video/x-msvideo=baka-mplayer.desktop;bomi.desktop;
+application/vnd.rar=engrampa.desktop;
+application/x-7z-compressed=engrampa.desktop;
+x-scheme-handler/mailto=exo-mail-reader.desktop
+image/gif=feh.desktop;
+x-scheme-handler/http=exo-web-browser.desktop
+inode/directory=exo-file-manager.desktop
+x-scheme-handler/trash=exo-file-manager.desktop
 
 [Default Applications]
 application/xhtml_xml=vivaldi-stable.desktop;
@@ -12,3 +21,8 @@ x-scheme-handler/ftp=vivaldi-stable.desktop;
 x-scheme-handler/http=vivaldi-stable.desktop;"vivaldi-stable.desktop".desktop;
 x-scheme-handler/https=vivaldi-stable.desktop;
 application/pdf=zathura.desktop
+text/plain=sublime_text_3.desktop
+application/vnd.rar=engrampa.desktop
+application/x-7z-compressed=engrampa.desktop
+image/gif=feh.desktop
+video/x-msvideo=bomi.desktop

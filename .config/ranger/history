@@ -13,16 +13,25 @@ delete
 touch 
 search pac
 search pam
-shell 
 search tas
 search t
 search ta
 search nv
-search loc
 search 
 search con
 search nvi
 search .loc
 open_with tixati
 
+open_with jfbview
+shell 
+search soun
+search gam
+open_with `
+search .oc
+search loc
+search .local
+search appl
+search jet
+search toolbox
 open_with 
