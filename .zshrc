@@ -15,7 +15,7 @@ compinit
 # [config]
 	# [variables]
 		PROMPT='%B[%2~]:%b'
-		RPROMPT='%B[%?][%#][%*]%b'
+		RPROMPT='%B[%?][%#][%y] [%*]%b'
 	# [sources]
 		source ~/.zplug/init.zsh
 		source /etc/profile.d/cnf.sh
@@ -68,7 +68,7 @@ compinit
 		alias ll='LC_COLLATE=C ls -AFhl --color=auto --group-directories-first'
 		alias ldot='LC_COLLATE=C ls -AFdhl --color=auto *'
 
-		alias vim='nvim'
+		al<FocusLost>ias vim='nvim'
 		alias vi='nvim'
 
 		alias grep='grep -i'
@@ -85,4 +85,12 @@ compinit
 		alias scrot-select='scrot -q 100 -s ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png'
 		alias scrot-window='scrot -q 100 -u ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png'
 
+		alias mplayer='mplayer -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom'
+
+		alias apm='pacaur'
+
+		alias sc='systemctl'
+		alias sc-hybernate='systemctl hybernate'
+		alias sc-suspend='systemctl suspend'
+		alias sc-sleep='systemctl hybrid-sleep'
 

@@ -11,6 +11,7 @@ image/gif=feh.desktop;
 x-scheme-handler/http=exo-web-browser.desktop
 inode/directory=exo-file-manager.desktop
 x-scheme-handler/trash=exo-file-manager.desktop
+image/jpeg=feh.desktop;
 
 [Default Applications]
 application/xhtml_xml=vivaldi-stable.desktop;
@@ -26,3 +27,4 @@ application/vnd.rar=engrampa.desktop
 application/x-7z-compressed=engrampa.desktop
 image/gif=feh.desktop
 video/x-msvideo=bomi.desktop
+image/jpeg=feh.desktop
