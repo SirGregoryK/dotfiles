@@ -20,9 +20,9 @@ compinit
 		source ~/.zplug/init.zsh
 		source /etc/profile.d/cnf.sh
 	# [functions]
-		backward-kill-dir () 
+		backward-kill-dir ()
 		{
-		    	local WORDCHARS=${WORDCHARS/\/}
+		    	local WORDCHARS=${WORDCHARS//[-.\/]}
 		    	zle backward-kill-word
 		}
 	# [autoexec]
