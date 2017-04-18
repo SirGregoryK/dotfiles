@@ -6,7 +6,7 @@
 [url "https://aur.archlinux.org/"]
 	insteadOf = aur://
 	pushInsteadOf = aur://
-[url "https://github.com/"]
+[url "git+ssh://git@github.com/"]
 	insteadOf = gh://
 	pushInsteadOf = gh://
 [url "https://gitlab.com/"]
@@ -15,3 +15,5 @@
 [url "https://gitgud.io/"]
 	insteadOf = gg://
 	PushInsteadOf = gg://
+[core]
+	autocrlf = input
