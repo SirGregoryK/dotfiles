@@ -12,7 +12,7 @@
 	# [strings]
 		set $i3_exit_dialog 	"i3-nagbar -f 'Source Code Pro 16' -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
-		set $i3_locker 		i3lock-fancy -g -- scrot
+		set $i3_locker 		i3lock-fancy -gp -- scrot
 
 		set $volume_ch 		--no-startup-id 	pactl set-sink-volume 	0
 		set $volume_mute	--no-startup-id 	pactl set-sink-mute 	0 toggle
