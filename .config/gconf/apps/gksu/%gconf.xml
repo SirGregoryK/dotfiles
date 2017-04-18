@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
 <gconf>
+	<entry name="display-no-pass-info" mtime="1492493839" type="bool" value="false"/>
 	<entry name="sudo-mode" mtime="1488733901" type="bool" value="true"/>
 </gconf>
