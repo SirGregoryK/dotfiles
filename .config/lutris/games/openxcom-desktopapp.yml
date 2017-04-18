@@ -1,7 +1,0 @@
-game:
-  appid: openxcom
-  args: ''
-  exe: /usr/bin/openxcom
-linux: {}
-system:
-  disable_runtime: true

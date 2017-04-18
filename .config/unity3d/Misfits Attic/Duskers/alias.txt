@@ -1,2 +1,0 @@
-begin=open a1;navigate 1 2 a1; generator 2; status
-end=navigate 1 2 3 4 r1

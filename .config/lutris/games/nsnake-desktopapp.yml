@@ -1,8 +1,0 @@
-game:
-  appid: nsnake
-  args: ''
-  exe: /usr/bin/nsnake
-linux: {}
-system:
-  disable_runtime: true
-  terminal: true

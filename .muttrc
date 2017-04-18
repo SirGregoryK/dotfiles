@@ -1,0 +1,36 @@
+## General options
+#set header_cache = "~/.cache/mutt"
+#set imap_check_subscribed
+#set imap_keepalive = 300
+#unset imap_passive
+#set mail_check = 60
+#set mbox_type=Maildir
+
+## ACCOUNT1
+#source "~/.mutt/work"
+# Here we use the $folder variable that has just been set in the sourced file.
+# We must set it right now otherwise the 'folder' variable will change in the next sourced file.
+#folder-hook $folder 'source ~/.mutt/work'
+
+## ACCOUNT2
+#source "~/.mutt/personal"
+#folder-hook *user@gmail.com/ 'source ~/.mutt/personal'
+#folder-hook *user@gmail.com/Family 'set realname="Bob"'
+
+## ACCOUNTS
+folder-hook 'account.helplessman@yandex.ru' 			'source ~/.mutt/com.helplessman@yandex.ru'
+folder-hook 'account.kgdhelplessman@gmail.com' 			'source ~/.mutt/com.kgdhelplessman@gmail.com'
+folder-hook 'account.helplessman@mail.ru' 			'source ~/.mutt/com.helplessman@mail.ru'
+
+folder-hook 'account.somedayigotoseashores@mail.ru' 		'source ~/.mutt/com.somedayigotoseashores@mail.ru'
+folder-hook 'account.somedayigotoseashores@yandex.ru' 		'source ~/.mutt/com.somedayigotoseashores@yandex.ru'
+folder-hook 'account.somedayigotoseashores@gmail.com' 		'source ~/.mutt/com.somedayigotoseashores@gmail.com'
+
+folder-hook 'account.gregorydkarpov@mail.ru' 			'source ~/.mutt/com.gregorydkarpov@mail.ru'
+folder-hook 'account.gregorydkarpov@yandex.ru' 			'source ~/.mutt/com.gregorydkarpov@yandex.ru'
+
+folder-hook 'account.sirgregoryk@mail.ru' 			'source ~/.mutt/com.sirgregoryk@mail.ru'
+folder-hook 'account.sirgregoryk@yandex.ru' 			'source ~/.mutt/com.sirgregoryk@yandex.ru'
+
+## FOLDER SWITCH
+macro index 'c' '<change-folder>?<change-dir><home>^K=<enter>'

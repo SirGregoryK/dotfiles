@@ -1,9 +1,0 @@
-game:
-  appid: bastet
-  args: ''
-  exe: /usr/bin/bastet
-linux: {}
-system:
-  disable_runtime: true
-  resolution: 1920x1080
-  terminal: true
