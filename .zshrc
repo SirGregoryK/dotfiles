@@ -48,9 +48,6 @@ compinit
   			# [next/previous word]
   				bindkey "^[[1;5C" forward-word
 				bindkey "^[[1;5D" backward-word
-
-				# bindkey "^[[C" forward-word
-				# bindkey "^[[D" backward-word
   			# [begin/end of line]
   				bindkey "${terminfo[khome]}" beginning-of-line
 				bindkey "${terminfo[kend]}" end-of-line
@@ -68,7 +65,7 @@ compinit
 		alias ll='LC_COLLATE=C ls -AFhl --color=auto --group-directories-first'
 		alias ldot='LC_COLLATE=C ls -AFdhl --color=auto *'
 
-		al<FocusLost>ias vim='nvim'
+		alias vim='nvim'
 		alias vi='nvim'
 
 		alias grep='grep -i'
@@ -90,7 +87,7 @@ compinit
 		alias apm='pacaur'
 
 		alias sc='systemctl'
-		alias sc-hybernate='systemctl hybernate'
+		alias sc-hibernate='systemctl hibernate'
 		alias sc-suspend='systemctl suspend'
 		alias sc-sleep='systemctl hybrid-sleep'
 
