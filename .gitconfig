@@ -1,7 +1,7 @@
 [user]
 	name = SirGregoryK
 	email = sirgregoryk@mail.ru
-	signingkey = 23D186954782E2FC
+	signingkey = BA5D95307357B4B0
 [core]
 [url "https://aur.archlinux.org/"]
 	insteadOf = aur://
