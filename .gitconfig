@@ -17,3 +17,9 @@
 	PushInsteadOf = gg://
 [core]
 	autocrlf = input
+[color]
+	ui = auto
+[diff]
+	mnemonicprefix = true
+[rerere]
+	enabled = true
