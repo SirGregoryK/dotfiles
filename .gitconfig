@@ -6,7 +6,7 @@
 [url "https://aur.archlinux.org/"]
 	insteadOf = aur://
 	pushInsteadOf = aur://
-[url "git+ssh://git@github.com/"]
+[url "https://github.com/"]
 	insteadOf = gh://
 	pushInsteadOf = gh://
 [url "https://gitlab.com/"]
