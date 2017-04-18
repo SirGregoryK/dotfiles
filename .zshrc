@@ -19,7 +19,14 @@ compinit
 	# [sources]
 		source ~/.zplug/init.zsh
 		source /etc/profile.d/cnf.sh
+	# [functions]
+		backward-kill-dir () 
+		{
+		    	local WORDCHARS=${WORDCHARS/\/}
+		    	zle backward-kill-word
+		}
 	# [autoexec]
+		zle -N backward-kill-dir
 	# [zplug]
 		# [plugins]
 			zplug 		"zsh-users/zsh-syntax-highlighting", defer:2
@@ -49,11 +56,13 @@ compinit
   				bindkey "^[[1;5C" forward-word
 				bindkey "^[[1;5D" backward-word
   			# [begin/end of line]
-  				bindkey "${terminfo[khome]}" beginning-of-line
-				bindkey "${terminfo[kend]}" end-of-line
+  				bindkey "^[[H" beginning-of-line
+				bindkey "^[[F" end-of-line
 		# [forward delete]
 			bindkey    "^[[3~"          delete-char
-	# [aliases]
+		# [word deletion]
+			bindkey '^[^?' backward-kill-dir
+		# [aliases]
 		eval "$(thefuck --alias)"
 		eval "$(thefuck --alias FUCK)"
 		eval "$(thefuck --alias wtf)"
