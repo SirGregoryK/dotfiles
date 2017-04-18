@@ -1,0 +1,3 @@
+longpoll_wait = 25
+auth_v2 = true
+token = 54c4048ff44a0a82936d099211e46bf2c1116c961635d1741df3e3c85db1cf66b6fef4235476ed85656a2
