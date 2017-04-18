@@ -12,6 +12,8 @@
 	# [strings]
 		set $i3_exit_dialog 	"i3-nagbar -f 'Source Code Pro 16' -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
+		set $i3_locker 		i3lock-fancy -- scrot && sleep 1
+
 		set $volume_ch 		--no-startup-id 	pactl set-sink-volume 	0
 		set $volume_mute	--no-startup-id 	pactl set-sink-mute 	0 toggle
 	# [parameters]
@@ -72,6 +74,7 @@
 		# [mode selection]
 			bindsym $mod+r mode "resize"
 			bindsym $mod+g mode "gaps"
+			bindsym $mod+e mode "system"
 		# [mode configuration]
 		mode "resize"
 		{
@@ -121,6 +124,20 @@
 
 			bindsym Return	mode "default"
 			bindsym Escape	mode "default"
+		}
+		mode "system"
+		{
+			bindsym l 		exec --no-startup-id 	$i3_locker, 					mode "default"
+    			bindsym e 		exec --no-startup-id 	i3-msg exit, 					mode "default"
+    			bindsym s 		exec --no-startup-id 	systemctl suspend && $i3_locker, 		mode "default"
+    			bindsym h 		exec --no-startup-id 	systemctl hybrid-sleep && $i3_locker, 		mode "default"
+    			bindsym $shft+h 	exec --no-startup-id 	systemctl hibernate, 				mode "default"
+    			bindsym $shft+s 	exec --no-startup-id 	systemctl poweroff -i, 				mode "default"
+    			bindsym $shft+r 	exec --no-startup-id 	systemctl reboot, 				mode "default"
+
+
+			bindsym Return 	mode "default"
+			bindsym Escape 	mode "default"
 		}
 	# [navigation]
 		# [focus]
