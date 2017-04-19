@@ -19,6 +19,8 @@ compinit
 	# [sources]
 		source ~/.zplug/init.zsh
 		source /etc/profile.d/cnf.sh
+	# [comlpletion]
+	 	eval "$(_TMUXP_COMPLETE=source tmuxp)"
 	# [functions]
 		backward-kill-dir ()
 		{
