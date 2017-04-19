@@ -19,18 +19,29 @@ compinit
 	# [sources]
 		source ~/.zplug/init.zsh
 		source /etc/profile.d/cnf.sh
-	# [comlpletion]
-	 	eval "$(_TMUXP_COMPLETE=source tmuxp)"
 	# [functions]
 		backward-kill-dir ()
 		{
 		    	local WORDCHARS=${WORDCHARS//[-.\/]}
 		    	zle backward-kill-word
 		}
+		pinentry-tty ()
+		{
+			if [ $(tty) != '/dev/pts/*' ];
+			then
+				export GPG_TTY=$(tty)
+  				export PINENTRY_USER_DATA="USE_CURSES=1"
+			else
+				export PINENTRY_USER_DATA="USE_CURSES=0"
+			fi
+		}
 	# [autoexec]
 		zle -N backward-kill-dir
+		pinentry-tty
 	# [zplug]
 		# [plugins]
+			zplug 		"bezhermoso/tmuxp-zsh-completion"
+
 			zplug 		"zsh-users/zsh-syntax-highlighting", defer:2
 		 	zplug 		"zsh-users/zsh-autosuggestions"
 			zplug 		"zsh-users/zsh-history-substring-search"
@@ -64,7 +75,7 @@ compinit
 			bindkey    "^[[3~"          delete-char
 		# [word deletion]
 			bindkey '^[^?' backward-kill-dir
-		# [aliases]
+	# [aliases]
 		eval "$(thefuck --alias)"
 		eval "$(thefuck --alias FUCK)"
 		eval "$(thefuck --alias wtf)"
@@ -94,6 +105,7 @@ compinit
 		alias scrot-window='scrot -q 100 -u ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png'
 
 		alias mplayer='mplayer -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom'
+		alias youtube-viewer='youtube-viewer --colorful -1 --video-player=mplayer --append-arg="-vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom"'
 
 		alias apm='pacaur'
 
