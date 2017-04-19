@@ -27,7 +27,7 @@ compinit
 		}
 		pinentry-tty ()
 		{
-			if [ $(tty) != '/dev/pts/*' ];
+			if [[ ($TERM == 'linux')  ||  ($TERM == 'screen') ]];
 			then
 				export GPG_TTY=$(tty)
   				export PINENTRY_USER_DATA="USE_CURSES=1"
