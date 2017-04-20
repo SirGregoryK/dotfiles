@@ -20,12 +20,21 @@ compinit
 		source ~/.zplug/init.zsh
 		source /etc/profile.d/cnf.sh
 	# [functions]
+		pacwrap()
+		{
+			if [[ $1 == '-Syu' ]];
+			then
+				sudo powerpill -Syu && pacaur -Syua
+			else
+				pacaur $@
+			fi
+		}
 		backward-kill-dir ()
 		{
 		    	local WORDCHARS=${WORDCHARS//[-.\/]}
 		    	zle backward-kill-word
 		}
-		pinentry-tty ()
+		zsh-pinentry-tty-check ()
 		{
 			if [[ ($TERM == 'linux')  ||  ($TERM == 'screen*') ]];
 			then
@@ -37,7 +46,7 @@ compinit
 		}
 	# [autoexec]
 		zle -N backward-kill-dir
-		pinentry-tty
+		zsh-pinentry-tty-check
 	# [zplug]
 		# [plugins]
 			zplug 		"bezhermoso/tmuxp-zsh-completion"
@@ -106,8 +115,6 @@ compinit
 
 		alias mplayer='mplayer -quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom'
 		alias youtube-viewer='youtube-viewer --colorful -1 --video-player=mplayer --append-arg="-quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom"'
-
-		alias apm='pacaur'
 
 		alias sc='systemctl'
 		alias sc-hibernate='systemctl hibernate'
