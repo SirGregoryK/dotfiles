@@ -117,8 +117,8 @@ compinit
 		alias scrot-select='scrot -q 100 -s ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png'
 		alias scrot-window='scrot -q 100 -u ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png'
 
-		alias mplayer='mplayer -quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom'
-		alias youtube-viewer='youtube-viewer --colorful -1 --video-player=mplayer --append-arg="-quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom"'
+		#alias mplayer='mplayer -quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom'
+		#alias youtube-viewer='youtube-viewer --colorful -1 --video-player=mplayer --append-arg="-quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom"'
 
 		alias sc='systemctl'
 		alias sc-hibernate='systemctl hibernate'
