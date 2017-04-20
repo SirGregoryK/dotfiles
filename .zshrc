@@ -19,6 +19,10 @@ compinit
 	# [sources]
 		source ~/.zplug/init.zsh
 		source /etc/profile.d/cnf.sh
+	# [autoload]
+		autoload -U select-word-style
+	# [settings]
+		select-word-style bash
 	# [functions]
 		pacwrap()
 		{
@@ -34,19 +38,19 @@ compinit
 		    	local WORDCHARS=${WORDCHARS//[-.\/]}
 		    	zle backward-kill-word
 		}
-		zsh-pinentry-tty-check ()
-		{
-			if [[ ($TERM == 'linux')  ||  ($TERM == 'screen*') ]];
-			then
-				export GPG_TTY=$(tty)
-  				export PINENTRY_USER_DATA="USE_CURSES=1"
-			else
-				export PINENTRY_USER_DATA="USE_CURSES=0"
-			fi
-		}
+		#zsh-pinentry-tty-check ()
+		#{
+		#        if [[ ($TERM == 'linux')  ||  ($TERM == 'screen*') ]];
+		#        then
+		#                # export GPG_TTY=$(tty)
+                #                  export PINENTRY_USER_DATA="USE_CURSES=1"
+		#        else
+		#                export PINENTRY_USER_DATA="USE_CURSES=0"
+		#        fi
+		#}
 	# [autoexec]
 		zle -N backward-kill-dir
-		zsh-pinentry-tty-check
+		#zsh-pinentry-tty-check
 	# [zplug]
 		# [plugins]
 			zplug 		"bezhermoso/tmuxp-zsh-completion"
