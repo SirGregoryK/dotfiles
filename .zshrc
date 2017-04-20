@@ -27,7 +27,7 @@ compinit
 		}
 		pinentry-tty ()
 		{
-			if [[ ($TERM == 'linux')  ||  ($TERM == 'screen') ]];
+			if [[ ($TERM == 'linux')  ||  ($TERM == 'screen*') ]];
 			then
 				export GPG_TTY=$(tty)
   				export PINENTRY_USER_DATA="USE_CURSES=1"
@@ -93,7 +93,7 @@ compinit
 		alias grep='grep -i'
 
 		alias rm='rm -i'
-		alias rmdir='rm -rfi'
+		alias rmdir='rm -rfI'
 		alias cp='cp -i'
 		alias mv='mv -i'
 
@@ -104,8 +104,8 @@ compinit
 		alias scrot-select='scrot -q 100 -s ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png'
 		alias scrot-window='scrot -q 100 -u ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png'
 
-		alias mplayer='mplayer -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom'
-		alias youtube-viewer='youtube-viewer --colorful -1 --video-player=mplayer --append-arg="-vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom"'
+		alias mplayer='mplayer -quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom'
+		alias youtube-viewer='youtube-viewer --colorful -1 --video-player=mplayer --append-arg="-quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom"'
 
 		alias apm='pacaur'
 
