@@ -38,19 +38,8 @@ compinit
 		    	local WORDCHARS=${WORDCHARS//[-.\/]}
 		    	zle backward-kill-word
 		}
-		#zsh-pinentry-tty-check ()
-		#{
-		#        if [[ ($TERM == 'linux')  ||  ($TERM == 'screen*') ]];
-		#        then
-		#                # export GPG_TTY=$(tty)
-                #                  export PINENTRY_USER_DATA="USE_CURSES=1"
-		#        else
-		#                export PINENTRY_USER_DATA="USE_CURSES=0"
-		#        fi
-		#}
 	# [autoexec]
 		zle -N backward-kill-dir
-		#zsh-pinentry-tty-check
 	# [zplug]
 		# [plugins]
 			zplug 		"bezhermoso/tmuxp-zsh-completion"
@@ -75,15 +64,18 @@ compinit
 	# [bindings]
 		# [plugins]
 			#[zsh-history-substring-search]
-				bindkey '^[[A' history-substring-search-up
-  				bindkey '^[[B' history-substring-search-down
+				bindkey '^[[A' 		history-substring-search-up
+  				bindkey '^[[B' 		history-substring-search-down
   		# [navigation]
   			# [next/previous word]
-  				bindkey "^[[1;5C" forward-word
-				bindkey "^[[1;5D" backward-word
+  				bindkey "^[[1;5C" 	forward-word
+				bindkey "^[[1;5D" 	backward-word
   			# [begin/end of line]
-  				bindkey "^[[H" beginning-of-line
-				bindkey "^[[F" end-of-line
+  				bindkey "^[[H" 		beginning-of-line
+				bindkey "^[[F" 		end-of-line
+
+				bindkey "^[[1~]]" 		beginning-of-line
+				bindkey "^[[4~]]" 		end-of-line
 		# [forward delete]
 			bindkey    "^[[3~"          delete-char
 		# [word deletion]
@@ -117,8 +109,8 @@ compinit
 		alias scrot-select='scrot -q 100 -s ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png'
 		alias scrot-window='scrot -q 100 -u ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png'
 
-		#alias mplayer='mplayer -quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom'
-		#alias youtube-viewer='youtube-viewer --colorful -1 --video-player=mplayer --append-arg="-quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom"'
+		alias mplayer='mplayer -quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom'
+		alias youtube-viewer='youtube-viewer --colorful -1 --video-player=mplayer --append-arg="-quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom"'
 
 		alias sc='systemctl'
 		alias sc-hibernate='systemctl hibernate'
