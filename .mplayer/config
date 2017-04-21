@@ -19,7 +19,7 @@
 ##################
 
 # Specify default video driver (see -vo help for a list).
-vo=fbdev2
+#vo=fbdev2
 
 # Use SDL video with the aalib subdriver by default.
 #vo = sdl:aalib
@@ -46,26 +46,26 @@ vo=fbdev2
 #monitor-dotclock = 30M-300M
 
 # Start in fullscreen mode by default.
-fs=yes
+#fs=yes
 
 # Change to a different videomode when going fullscreen.
-vm=yes
+#vm=yes
 
 # Override the autodetected color depth, may need 'vm=yes' as well.
-bpp=0
+#bpp=0
 
 # Enable software scaling (powerful CPU needed) for video output
 # drivers that do not support hardware scaling.
-zoom=yes
+#zoom=yes
 
 # standard monitor size, with square pixels
 #monitoraspect=4:3
 
 # Use this for a widescreen monitor, non-square pixels.
-monitoraspect=16:9
+#monitoraspect=16:9
 
 # Keep the player window on top of all other windows.
-ontop=no
+#ontop=no
 
 
 ##################
@@ -73,7 +73,7 @@ ontop=no
 ##################
 
 # Specify default audio driver (see -ao help for a list).
-ao=alsa
+#ao=alsa
 
 # Use SDL audio driver with the esd subdriver by default.
 #ao = sdl:esd
@@ -130,7 +130,7 @@ ao=alsa
 # cache settings
 #
 # Use 8MB input cache by default.
-cache = 8192
+#cache = 8192
 #
 # Prefill 20% of the cache before starting playback.
 #cache-min = 20.0
@@ -169,6 +169,6 @@ cache = 8192
 # You can also include other configuration files.
 #include = /path/to/the/file/you/want/to/include
 
-quiet=yes
-
-xy=1920
+#quiet=yes
+#aspect=16:9
+#xy=1920
