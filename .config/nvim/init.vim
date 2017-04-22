@@ -83,6 +83,7 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'powerman/vim-plugin-ruscmd'
 Plug 'tpope/vim-surround'
 Plug 'bronson/vim-trailing-whitespace'
+Plug 'thaerkh/vim-workspace'
 
 Plug 'flazz/vim-colorschemes'
 
@@ -104,3 +105,6 @@ else
 endif
 
 let g:deoplete#enable_at_startup = 1
+let g:workspace_autosave_untrailspaces = 0
+let g:workspace_autosave_ignore = ['gitcommit']
+let g:workspace_session_name = 'Session.vim'
