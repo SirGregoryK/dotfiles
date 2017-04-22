@@ -15,7 +15,8 @@ compinit
 # [config]
 	# [variables]
 		PROMPT='%B[%2~]:%b'
-		RPROMPT='%B[%?][%#][%y] [%*]%b'
+		#PROMPT="$(shrink_path -f)"
+		RPROMPT="%B[%?][%#][%y] [%*]%b"
 	# [sources]
 		source ~/.zplug/init.zsh
 		source /etc/profile.d/cnf.sh
@@ -24,15 +25,15 @@ compinit
 	# [settings]
 		select-word-style bash
 	# [functions]
-		pacwrap()
-		{
-			if [[ $1 == '-Syu' ]];
-			then
-				sudo powerpill -Syu && pacaur -Syua
-			else
-				pacaur $@
-			fi
-		}
+		#pacwrap()
+		#{
+			#if [[ $1 == '-Syu' ]];
+			#then
+				#sudo powerpill -Syu && pacaur -Syua
+			#else
+				#pacaur $@
+			#fi
+		#}
 		backward-kill-dir ()
 		{
 		    	local WORDCHARS=${WORDCHARS//[-.\/]}
@@ -42,14 +43,17 @@ compinit
 		zle -N backward-kill-dir
 	# [zplug]
 		# [plugins]
+			zplug 'zplug/zplug', hook-build:'zplug --self-manage'
+
 			zplug 		"bezhermoso/tmuxp-zsh-completion"
 
 			zplug 		"zsh-users/zsh-syntax-highlighting", defer:2
-		 	zplug 		"zsh-users/zsh-autosuggestions"
+			zplug 		"zsh-users/zsh-autosuggestions"
 			zplug 		"zsh-users/zsh-history-substring-search"
 
 			zplug 		"plugins/git", from:oh-my-zsh
 			zplug 		"plugins/pip", from:oh-my-zsh
+			#zplug 		"plugins/shrink-path", from:oh-my-zsh
 			zplug 		"plugins/sublime", from:oh-my-zsh
 			zplug 		"plugins/sudo", from:oh-my-zsh
 			zplug 		"plugins/svn-fast-info", from:oh-my-zsh
