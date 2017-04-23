@@ -55,7 +55,7 @@ fi
 	export BROWSER=vivaldi-stable
 # autorun section
 # =====================
-# xrandr for nvidia 
+# xrandr for nvidia
 xrandr --setprovideroutputsource modesetting NVIDIA-0
 xrandr --auto
 
