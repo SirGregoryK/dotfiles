@@ -130,13 +130,13 @@
 # cache settings
 #
 # Use 8MB input cache by default.
-#cache = 8192
+cache = 8192
 #
 # Prefill 20% of the cache before starting playback.
-#cache-min = 20.0
+cache-min = 20.0
 #
 # Prefill 50% of the cache before restarting playback after the cache emptied.
-#cache-seek-min = 50
+cache-seek-min = 50
 
 # DVD: Display English subtitles if available.
 #slang = en
@@ -169,6 +169,3 @@
 # You can also include other configuration files.
 #include = /path/to/the/file/you/want/to/include
 
-#quiet=yes
-#aspect=16:9
-#xy=1920
