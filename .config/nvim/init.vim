@@ -75,12 +75,16 @@ Plug 'talek/obvious-resize'
 Plug 'elentok/plaintasks.vim'
 Plug 'ervandew/supertab'
 Plug 'godlygeek/tabular'
+Plug 'majutsushi/tagbar'
+Plug 'sirver/ultisnips'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'jistr/vim-nerdtree-tabs'
+Plug 'tpope/vim-repeat'
 Plug 'powerman/vim-plugin-ruscmd'
+Plug 'honza/vim-snippets'
 Plug 'tpope/vim-surround'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'thaerkh/vim-workspace'
@@ -104,7 +108,10 @@ else
     hi Normal guibg=NONE ctermbg=NONE
 endif
 
+nnoremap <leader>tw :ToggleWorkspace<CR>
+
 let g:deoplete#enable_at_startup = 1
 let g:workspace_autosave_untrailspaces = 0
 let g:workspace_autosave_ignore = ['gitcommit']
 let g:workspace_session_name = 'Session.vim'
+let g:SuperTabDefaultCompletionType = '<c-n>'
