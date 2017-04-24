@@ -110,8 +110,13 @@ endif
 
 nnoremap <leader>tw :ToggleWorkspace<CR>
 
+set spelllang=en,ru
+
 let g:deoplete#enable_at_startup = 1
 let g:workspace_autosave_untrailspaces = 0
 let g:workspace_autosave_ignore = ['gitcommit']
 let g:workspace_session_name = 'Session.vim'
 let g:SuperTabDefaultCompletionType = '<c-n>'
+let g:UltiSnipExpandTrigger='<tab>'
+let g:UltiSnipsJumpForwardTrigger='<c-b>'
+let g:UltiSnipsJumpBackwardTrigger='<c-z>'
