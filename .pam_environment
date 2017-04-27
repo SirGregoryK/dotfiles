@@ -6,4 +6,3 @@ QT_QPA_PLATFORMTHEME=qt5ct
 
 RANGER_LOAD_DEFAULT_RC=FALSE
 
-_JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
