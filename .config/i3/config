@@ -98,6 +98,26 @@
 			bindsym $shft+Up	resize shrink		down		10 px or 10 ppt
 			bindsym $shft+Right 	resize shrink		left		10 px or 10 ppt
 
+			bindsym $ctrl+h 		resize grow		left		1 px or 1 ppt
+			bindsym $ctrl+j 		resize grow		down 		1 px or 1 ppt
+			bindsym $ctrl+k 		resize grow		up 		1 px or 1 ppt
+			bindsym $ctrl+l 		resize grow		right		1 px or 1 ppt
+
+			bindsym $ctrl+Left 		resize grow		left		1 px or 1 ppt
+			bindsym $ctrl+Down 		resize grow		down		1 px or 1 ppt
+			bindsym $ctrl+Up 		resize grow		up		1 px or 1 ppt
+			bindsym $ctrl+Right 		resize grow		right		1 px or 1 ppt
+
+			bindsym $ctrl+$shft+h 		resize shrink		right		1 px or 1 ppt
+			bindsym $ctrl+$shft+j 		resize shrink		up		1 px or 1 ppt
+			bindsym $ctrl+$shft+k 		resize shrink		down 		1 px or 1 ppt
+			bindsym $ctrl+$shft+l 		resize shrink		left		1 px or 1 ppt
+
+			bindsym $ctrl+$shft+Left 	resize shrink		right		1 px or 1 ppt
+			bindsym $ctrl+$shft+Down 	resize shrink		up		1 px or 1 ppt
+			bindsym $ctrl+$shft+Up		resize shrink		down		1 px or 1 ppt
+			bindsym $ctrl+$shft+Right 	resize shrink		left		1 px or 1 ppt
+
 			bindsym $mod+h 		focus left
 			bindsym $mod+j 		focus down
 			bindsym $mod+k 		focus up
