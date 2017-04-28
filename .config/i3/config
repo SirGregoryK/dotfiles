@@ -32,7 +32,7 @@
 		focus_follows_mouse no
 # [autoexec]
 	exec --no-startup-id	/usr/lib/mate-polkit/polkit-mate-authentication-agent-1
-	exec --no-startup-id	compton		--config ~/.config/compton/i3-compton.conf	--backend xr_glx_hybrid --vsync-use-glfinish 	-b
+	exec --no-startup-id	compton		--config ~/.config/compton/i3-compton.conf	--backend xr_glx_hybrid --vsync-use-glfinish 	-b 	--vsync opengl-mswc --sw-opti --glx-no-stencil --glx-swap-method 2 --xrender-sync --xrender-sync-fence --paint-on-overlay
 	exec --no-startup-id	numlockx
 	exec --no-startup-id	polybar	example
 	exec --no-startup-id	dropbox
