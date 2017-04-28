@@ -57,6 +57,10 @@ image/*; curl -s '%s' | convert -resize 80x80 - jpg:/tmp/rtv.jpg && img2xterm /t
 # Display images in classic ascii using img2txt and lib-caca
 image/*; curl -s '%s' | convert - jpg:/tmp/rtv.jpg && img2txt -f utf8 /tmp/rtv.jpg; needsterminal; copiousoutput
 
+# Console videos
+video/x-youtube; youtube-dl -q -o - '%s' | mpv --cache 8192 --vo=drm --drm-connector=01.eDP-1 -; needsterminal
+video/*; wget '%s' -O - | mpv --cache 8192 --vo=drm --drm-connector=01.eDP-1 -; needsterminal
+
 # Ascii videos
 video/x-youtube; youtube-dl -q -o - '%s' | mplayer -cache 8192 -vo fbdev2 -fs -quiet -; needsterminal
 video/*; wget '%s' -O - | mplayer -cache 8192 -vo fbdev2 -fs -quiet -; needsterminal
