@@ -78,8 +78,8 @@ compinit
   				bindkey "^[[H" 		beginning-of-line
 				bindkey "^[[F" 		end-of-line
 
-				bindkey "^[[1~]]" 		beginning-of-line
-				bindkey "^[[4~]]" 		end-of-line
+				bindkey "^[[1~" 		beginning-of-line
+				bindkey "^[[4~" 		end-of-line
 		# [forward delete]
 			bindkey    "^[[3~"          delete-char
 		# [word deletion]
@@ -99,6 +99,10 @@ compinit
 		alias vim='nvim'
 		alias vi='nvim'
 
+		alias snvim='sudoedit'
+		alias svim='sudoedit'
+		alias svi='sudoedit'
+
 		alias grep='grep -i'
 
 		alias rm='rm -i'
@@ -113,10 +117,13 @@ compinit
 		alias scrot-select='scrot -q 100 -s ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png'
 		alias scrot-window='scrot -q 100 -u ~/Изображения/.screenshots/scrot/%Y%m%d%H%M%S.png'
 
-		alias mplayer='mplayer -quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom'
-		alias youtube-viewer='youtube-viewer -video-player=mplayer --append-arg="-quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom"'
+		alias mpv-fb='mpv --vo=drm --drm-connector=01.eDP-1'
+		alias mplayer-fb='mplayer -quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom'
+		alias youtube-viewer-fb='youtube-viewer -video-player=mpv --append-arg="--vo=drm --drm-connector=01.eDP-1"'
+		#alias youtube-viewer-fb='youtube-viewer -video-player=mplayer --append-arg="-quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom"'
 		alias streamlink='streamlink'
-		alias streamlink-fb='streamlink --player "mplayer -quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom"'
+		alias streamlink-fb='streamlink --player "mpv --vo=drm --drm-connector=01.eDP-1"'
+		#alias streamlink-fb='streamlink --player "mplayer -quiet -vo fbdev2 -aspect 16:9 -xy 1920 -fs -zoom"'
 
 
 		alias sc='systemctl'
