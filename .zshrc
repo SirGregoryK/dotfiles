@@ -19,7 +19,7 @@ compinit
 		RPROMPT="%B[%?][%#][%y] [%*]%b"
 	# [sources]
 		source ~/.zplug/init.zsh
-		source /etc/profile.d/cnf.sh
+		#source /etc/profile.d/cnf.sh
 	# [autoload]
 		autoload -U select-word-style
 	# [settings]
@@ -94,10 +94,10 @@ compinit
 		alias grep='grep --color'
 
 		alias ll='LC_COLLATE=C ls -AFhl --color=auto --group-directories-first'
-		alias ldot='LC_COLLATE=C ls -AFdhl --color=auto *'
+		alias ldot='LC_COLLATE=C ls -AFdhl --color=auto .*'
 
-		alias vim='nvim'
-		alias vi='nvim'
+		#alias vim='nvim'
+		#alias vi='nvim'
 
 		alias snvim='sudoedit'
 		alias svim='sudoedit'
